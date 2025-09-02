@@ -1,0 +1,4204 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Sams DayZ Object Database</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="">
+    <meta name="generator" content="Hugo 0.149.0">
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+
+    
+
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="http://localhost:1313/catalog/">
+    
+
+    <meta property="og:url" content="http://localhost:1313/catalog/">
+  <meta property="og:site_name" content="Sams DayZ Object Database">
+  <meta property="og:title" content="Sams DayZ Object Database">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+
+  <meta itemprop="name" content="Sams DayZ Object Database">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Sams DayZ Object Database">
+
+	
+  </head><body class="ma0 avenir bg-near-white development">
+
+    
+
+  <header>
+    <div class="pb1-m pb1-l bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l center items-center justify-between">
+    <a href="/" class="f3 fw2 hover-white white-90 dib no-underline">
+      
+        Sams DayZ Object Database
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      <div class="ananke-socials"></div>
+
+    </div>
+  </div>
+</nav>
+
+      
+    </div>
+  </header>
+
+    <main class="pb7" role="main">
+      
+
+<h1></h1>
+
+<style>
+   
+  #dayzObjects_wrapper {
+    width: 100% !important;
+    margin: 20px;
+  }
+  #dayzObjects {
+    width: 100% !important;
+  }
+
+   
+  .top-bar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    gap: 10px;
+  }
+
+  .top-bar select,
+  .top-bar input {
+    margin-right: 10px;
+  }
+
+   
+  #filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 15px;
+    align-items: center;
+  }
+
+   
+  #dayzObjects_filter input {
+    width: 200px;
+    max-width: 100%;
+  }
+</style>
+
+<div id="filters">
+  <label for="filterCategory">Category:</label>
+  <select id="filterCategory">
+    <option value="">All</option>
+  </select>
+
+  <label for="filterConsole">Usable on Console:</label>
+  <select id="filterConsole">
+    <option value="">All</option>
+    <option value="✅">Yes</option>
+    <option value="❌">No</option>
+  </select>
+</div>
+
+<table id="dayzObjects" class="display" style="width:100%">
+  <thead>
+    <tr>
+      <th>Object name</th>
+      <th>In-game name</th>
+      <th>Category</th>
+      <th>Model Type</th>
+      <th>Path</th>
+      <th>Usable on Console</th>
+      <th>Search Tags</th>
+    </tr>
+  </thead>
+  <tbody>
+    
+    <tr>
+      <td data-image="images/tree/christmas_tree.jpg">ChristmasTree</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Config</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td>santa, festive, seasonal</td>
+    </tr>
+    
+    <tr>
+      <td data-image="images/tree/christmas_tree_green.jpg">ChristmasTree_Green</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Config</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td>santa, festive, seasonal</td>
+    </tr>
+    
+    <tr>
+      <td data-image="images/tree/christmas_tree.jpg">t_piceaabies_2s_xmas.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td>santa, festive, seasonal</td>
+    </tr>
+    
+    <tr>
+      <td data-image="images/tree/christmas_tree_green.jpg">t_piceaabies_2s_green_xmas.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td>santa, festive, seasonal</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">d_quercusrobur_fallenb.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td>dead tree</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_quercusrobur_1fb.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_piceaabies_3f_trail_r.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_betulapendula_1s.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_prunusdomestica_2s.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_prunusdomestica_2s.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_populusalba_2s.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_quercusrobur_3s.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_quercusrobur_2fc.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">d_piceaabies_fallen.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td>dead tree</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_fagusSylvatica_1fe.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">d_piceaables_stump.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td>dead tree</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_quercusrobur_2fb.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_larixdecidua_2s.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_robinapseudoacacia_2s.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">b_quercusrobur_1f.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td>bush</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_fagussylvatica_1fd.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_fraxinusexcelsior_2s.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_piceaables_2f.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_town_1s.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_fagussylvatica_3f.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_pinussyvestris_3s.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_pyruscommunis_3s.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_fagussylvatica_1fc.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_piceaables_1sb.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_quercusrobur_1f.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_piceaables_2fb.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_quercusrobur_2sc.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_piceaables_2s_xmas.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_fagussylvatica_1fb.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_fagussylvatica_2sb_trail_q.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_piceaables_2d.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_salixalba_2s.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">d_fagussylvatica_stump.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td>dead tree</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_fagussylvatica_3d.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_quercusrobur_2sb.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_betulapendula_2f.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_fagussylvatica_1s.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td>dead tree</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_quercusrobur_3fb.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">d_fagussylvatica_stump.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td>dead tree</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_pinussylvestris_1f.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">d_pinussylvestris_stump.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td>dead tree</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_populusnigra_3s.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_fagussylvatica_2f.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_piceaabies_2sb.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_naked_2s.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_salixalba_2sb_swamp.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_fagussylvatica_2sb.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td>fallen tree</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_piceaabies_3s.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_fagussylvatica_2fb.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td>fallen tree</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_fagussylvatica_3fb.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td>fallen tree</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_larixdecidua_3f.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_robiniapseudoacacia_3f.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_quercusrobur_3sb.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_malusdomestica_3s.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_quercusrobur_2s.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_juglansregia_3s.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">d_fagussylvatica_stump.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td>dead tree</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">d_pinussylvestris_fallenc.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td>dead tree</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_fagussylvatica_2sb_trail_b.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_betulapendula_3s.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_larixdecidua_1s.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_larixdecidua_2fb.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_piceaabies_1f.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_piceaabies_3f_trail_g.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">d_pinussylvestris_fallenb.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td>dead tree</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_piceaabies_2s_green_xmas.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_fagussylvatica_2f.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_pinussylvestris_2s.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_pyruscommunis_2s.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_sorbus_2s.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_fagussylvatica_3fb_test.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_fagussylvatica_2sb_trail_y.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_fagussylvatica_2d.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_betulapendula_1f.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_larixdecidua_3fb.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">d_fagussylvatica_fallenc.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td>dead tree</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_betulapendula_1fb.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_betulapendula_2w.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">d_fagussylvatica_fallen.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td>dead tree</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_quercusrobur_3f.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">d_quercusrobur_stumpb.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td>dead tree</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">d_fagussylvatica_fallenb.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td>dead tree</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_naked_1s.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">b_piceaabies_1fb.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td>bush</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_piceaabies_2s.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">d_pinussylvestris_stumpb.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_piceaabies_3f_trail_b.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_fagussylvatica_3s.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_larixdecidua_2f.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_robiniapseudoacacia_2f.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_fraxinusexcelsior_2f.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_betulapendula_2fc.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_quercusrobur_3d.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_salixalba_2sb.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_malusdomestica_2s.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_quercusrobur_1s.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_pinussylvestris_3f.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">b_fagussylvatica_1f.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_juglansregia_2s.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_betulapendula_2fb.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_pinussylvestris_2fb.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_betulapendula_2s.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_piceaabies_3f_trail_y.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_populusalba_3s.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_fagussylvatica_1f.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_pinussylvestris_3d.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_pinussylvestris_1s.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">d_piceaabies_stumpb.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_betulapendula_3fc.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_fagussylvatica_2sb_trail_r.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">b_piceaabies_1f.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_pinussylvestris_3fc.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_betulapendula_3fb.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_pyruscommunis_3sb.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_pinussylvestris_2sb.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">d_piceaabies_fallenc.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_fraxinusexcelsior_3s.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_piceaabies_3f.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_pinussylvestris_3fb.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_populusalba_1f.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">d_piceaabies_fallenb.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_quercusrobur_2f.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_piceaabies_3d.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_quercusrobur_1fd.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_piceaabies_1s.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_town_1sb.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_betulapendula_3f.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_fagussylvatica_2s.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_larixdecidua_1f.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_robiniapseudoacacia_1f.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">d_pinussylvestris_fallen.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">d_quercusrobur_fallenc.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_carpinus_2s.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_quercusrobur_1fc.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_quercusrobur_2d.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">d_quercusrobur_stump.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_malusdomestica_1s.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_pinussylvestris_2f.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">b_betulapendula_1f.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_fraxinusexcelsior_2w.p3d</td>
+      <td>-</td>
+      <td>Tree</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/tree</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">c_anthoxanthum.p3d</td>
+      <td>-</td>
+      <td>clutter</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/clutter</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">c_elytrigia.p3d</td>
+      <td>-</td>
+      <td>clutter</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/clutter</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">c_polypodiophyta_c.p3d</td>
+      <td>-</td>
+      <td>clutter</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/clutter</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">p_articum.p3d</td>
+      <td>-</td>
+      <td>clutter</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/clutter</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">c_polypodiophyta_b.p3d</td>
+      <td>-</td>
+      <td>clutter</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/clutter</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">l_plane_long.p3d</td>
+      <td>-</td>
+      <td>clutter</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/clutter</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">c_lolium.p3d</td>
+      <td>-</td>
+      <td>clutter</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/clutter</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">c_elytrigiaforest.p3d</td>
+      <td>-</td>
+      <td>clutter</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/clutter</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">c_twigs.p3d</td>
+      <td>-</td>
+      <td>clutter</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/clutter</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">p_helianthus.p3d</td>
+      <td>-</td>
+      <td>clutter</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/clutter</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">c_leafs_spread.p3d</td>
+      <td>-</td>
+      <td>clutter</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/clutter</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">c_calamagrostis.p3d</td>
+      <td>-</td>
+      <td>clutter</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/clutter</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">c_carduus.p3d</td>
+      <td>-</td>
+      <td>clutter</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/clutter</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">c_dirtgrass_bunch.p3d</td>
+      <td>-</td>
+      <td>clutter</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/clutter</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">c_vaccinium_green.p3d</td>
+      <td>-</td>
+      <td>clutter</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/clutter</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">c_vaccinium_red.p3d</td>
+      <td>-</td>
+      <td>clutter</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/clutter</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">c_elytrigia_green.p3d</td>
+      <td>-</td>
+      <td>clutter</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/clutter</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">l_plane.p3d</td>
+      <td>-</td>
+      <td>clutter</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/clutter</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">l_large_pile.p3d</td>
+      <td>-</td>
+      <td>clutter</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/clutter</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">c_hypericum.p3d</td>
+      <td>-</td>
+      <td>clutter</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/clutter</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">c_vaccinium.p3d</td>
+      <td>-</td>
+      <td>clutter</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/clutter</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">c_polypodiophyta_tall.p3d</td>
+      <td>-</td>
+      <td>clutter</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/clutter</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">c_taraxacum.p3d</td>
+      <td>-</td>
+      <td>clutter</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/clutter</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">c_twigs_b.p3d</td>
+      <td>-</td>
+      <td>clutter</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/clutter</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">p_urtica.p3d</td>
+      <td>-</td>
+      <td>clutter</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/clutter</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">c_anthoxanthum_bended.p3d</td>
+      <td>-</td>
+      <td>clutter</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/clutter</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">c_hypericum_f.p3d</td>
+      <td>-</td>
+      <td>clutter</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/clutter</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">c_undergrowth.p3d</td>
+      <td>-</td>
+      <td>clutter</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/clutter</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">c_vaccinium_tall.p3d</td>
+      <td>-</td>
+      <td>clutter</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/clutter</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">c_polypodiophyta.p3d</td>
+      <td>-</td>
+      <td>clutter</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/clutter</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">p_phragmites.p3d</td>
+      <td>-</td>
+      <td>clutter</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/clutter</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">c_undergrowth_red.p3d</td>
+      <td>-</td>
+      <td>clutter</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/clutter</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">l_long_pile_b.p3d</td>
+      <td>-</td>
+      <td>clutter</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/clutter</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">l_long_pile_a.p3d</td>
+      <td>-</td>
+      <td>clutter</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/clutter</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">c_elytrigiatall.p3d</td>
+      <td>-</td>
+      <td>clutter</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/clutter</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">c_pines.p3d</td>
+      <td>-</td>
+      <td>clutter</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/clutter</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">c_concretegrass_bunch.p3d</td>
+      <td>-</td>
+      <td>clutter</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/clutter</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">c_broadleaf_sprouts_tall.p3d</td>
+      <td>-</td>
+      <td>clutter</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/clutter</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">p_heracleum.p3d</td>
+      <td>-</td>
+      <td>clutter</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/clutter</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">c_carduus_f.p3d</td>
+      <td>-</td>
+      <td>clutter</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/clutter</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">c_broadleaf_sprouts.p3d</td>
+      <td>-</td>
+      <td>clutter</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/clutter</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">c_elytrigiadirt.p3d</td>
+      <td>-</td>
+      <td>clutter</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/clutter</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">c_cones.p3d</td>
+      <td>-</td>
+      <td>clutter</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/clutter</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">b_crataegustaevigata_2s.p3d</td>
+      <td>-</td>
+      <td>bush</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/bush</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">b_betulahumilis_1s.p3d</td>
+      <td>-</td>
+      <td>bush</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/bush</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">b_sambucusnigra_2s.p3d</td>
+      <td>-</td>
+      <td>bush</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/bush</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">b_rosacanina_2s.p3d</td>
+      <td>-</td>
+      <td>bush</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/bush</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">b_crataegustaevigata_1s.p3d</td>
+      <td>-</td>
+      <td>bush</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/bush</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">b_sambucusnigra_1s.p3d</td>
+      <td>-</td>
+      <td>bush</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/bush</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">b_rosacanina_1s.p3d</td>
+      <td>-</td>
+      <td>bush</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/bush</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">b_prunusspinosa_2s.p3d</td>
+      <td>-</td>
+      <td>bush</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/bush</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">b_prunusspinosa_1s.p3d</td>
+      <td>-</td>
+      <td>bush</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/bush</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">b_naked_2s.p3d</td>
+      <td>-</td>
+      <td>bush</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/bush</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">b_corylusavellana_1f.p3d</td>
+      <td>-</td>
+      <td>bush</td>
+      <td>Raw P3D</td>
+      <td>dz/plants/bush</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">rock_apart1</td>
+      <td>-</td>
+      <td>rocks</td>
+      <td>P3D</td>
+      <td>dz/rocks</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">rock_apart2</td>
+      <td>-</td>
+      <td>rocks</td>
+      <td>P3D</td>
+      <td>dz/rocks</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">rock_bright_apart1</td>
+      <td>-</td>
+      <td>rocks</td>
+      <td>P3D</td>
+      <td>dz/rocks</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">rock_bright_apart2</td>
+      <td>-</td>
+      <td>rocks</td>
+      <td>P3D</td>
+      <td>dz/rocks</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">rock_bright_monolith1</td>
+      <td>-</td>
+      <td>rocks</td>
+      <td>P3D</td>
+      <td>dz/rocks</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">rock_bright_monolith2</td>
+      <td>-</td>
+      <td>rocks</td>
+      <td>P3D</td>
+      <td>dz/rocks</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">rock_bright_monolith3</td>
+      <td>-</td>
+      <td>rocks</td>
+      <td>P3D</td>
+      <td>dz/rocks</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">rock_bright_monolith4</td>
+      <td>-</td>
+      <td>rocks</td>
+      <td>P3D</td>
+      <td>dz/rocks</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">rock_bright_spike1</td>
+      <td>-</td>
+      <td>rocks</td>
+      <td>P3D</td>
+      <td>dz/rocks</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">rock_bright_spike2</td>
+      <td>-</td>
+      <td>rocks</td>
+      <td>P3D</td>
+      <td>dz/rocks</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">rock_bright_spike3</td>
+      <td>-</td>
+      <td>rocks</td>
+      <td>P3D</td>
+      <td>dz/rocks</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">rock_bright_wallh1</td>
+      <td>-</td>
+      <td>rocks</td>
+      <td>P3D</td>
+      <td>dz/rocks</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">rock_bright_wallh2</td>
+      <td>-</td>
+      <td>rocks</td>
+      <td>P3D</td>
+      <td>dz/rocks</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">rock_bright_wallh3</td>
+      <td>-</td>
+      <td>rocks</td>
+      <td>P3D</td>
+      <td>dz/rocks</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">rock_bright_wallv</td>
+      <td>-</td>
+      <td>rocks</td>
+      <td>P3D</td>
+      <td>dz/rocks</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">rock_monolith1</td>
+      <td>-</td>
+      <td>rocks</td>
+      <td>P3D</td>
+      <td>dz/rocks</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">rock_monolith2</td>
+      <td>-</td>
+      <td>rocks</td>
+      <td>P3D</td>
+      <td>dz/rocks</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">rock_monolith3</td>
+      <td>-</td>
+      <td>rocks</td>
+      <td>P3D</td>
+      <td>dz/rocks</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">rock_monolith4</td>
+      <td>-</td>
+      <td>rocks</td>
+      <td>P3D</td>
+      <td>dz/rocks</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">rock_spike1</td>
+      <td>-</td>
+      <td>rocks</td>
+      <td>P3D</td>
+      <td>dz/rocks</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">rock_spike2</td>
+      <td>-</td>
+      <td>rocks</td>
+      <td>P3D</td>
+      <td>dz/rocks</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">rock_spike3</td>
+      <td>-</td>
+      <td>rocks</td>
+      <td>P3D</td>
+      <td>dz/rocks</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">rock_wallh1</td>
+      <td>-</td>
+      <td>rocks</td>
+      <td>P3D</td>
+      <td>dz/rocks</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">rock_wallh2</td>
+      <td>-</td>
+      <td>rocks</td>
+      <td>P3D</td>
+      <td>dz/rocks</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">rock_wallh3</td>
+      <td>-</td>
+      <td>rocks</td>
+      <td>P3D</td>
+      <td>dz/rocks</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">rock_wallv</td>
+      <td>-</td>
+      <td>rocks</td>
+      <td>P3D</td>
+      <td>dz/rocks</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">snow_rocks</td>
+      <td>-</td>
+      <td>rocks</td>
+      <td>P3D</td>
+      <td>dz/rocks</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">stone1</td>
+      <td>-</td>
+      <td>rocks</td>
+      <td>P3D</td>
+      <td>dz/rocks</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">stone2</td>
+      <td>-</td>
+      <td>rocks</td>
+      <td>P3D</td>
+      <td>dz/rocks</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">stone3</td>
+      <td>-</td>
+      <td>rocks</td>
+      <td>P3D</td>
+      <td>dz/rocks</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">stone4</td>
+      <td>-</td>
+      <td>rocks</td>
+      <td>P3D</td>
+      <td>dz/rocks</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">stone5_trail_b</td>
+      <td>-</td>
+      <td>rocks</td>
+      <td>P3D</td>
+      <td>dz/rocks</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">stone5_trail_g</td>
+      <td>-</td>
+      <td>rocks</td>
+      <td>P3D</td>
+      <td>dz/rocks</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">stone5_trail_r</td>
+      <td>-</td>
+      <td>rocks</td>
+      <td>P3D</td>
+      <td>dz/rocks</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">stone5_trail_y</td>
+      <td>-</td>
+      <td>rocks</td>
+      <td>P3D</td>
+      <td>dz/rocks</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">stone5</td>
+      <td>-</td>
+      <td>rocks</td>
+      <td>P3D</td>
+      <td>dz/rocks</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">stones_erosion</td>
+      <td>-</td>
+      <td>rocks</td>
+      <td>P3D</td>
+      <td>dz/rocks</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td data-image="">snow_rock_apart1</td>
+      <td>-</td>
+      <td>snow_rocks</td>
+      <td>P3D</td>
+      <td>dz/rocks/snow_rocks</td>
+      <td>✅</td>
+      <td>Sakhal rock</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">snow_rock_apart2</td>
+      <td>-</td>
+      <td>snow_rocks</td>
+      <td>P3D</td>
+      <td>dz/rocks/snow_rocks</td>
+      <td>✅</td>
+      <td>Sakhal rock</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">snow_rock_bright_apart1</td>
+      <td>-</td>
+      <td>snow_rocks</td>
+      <td>P3D</td>
+      <td>dz/rocks/snow_rocks</td>
+      <td>✅</td>
+      <td>Sakhal rock</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">snow_rock_bright_apart2</td>
+      <td>-</td>
+      <td>snow_rocks</td>
+      <td>P3D</td>
+      <td>dz/rocks/snow_rocks</td>
+      <td>✅</td>
+      <td>Sakhal rock</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">snow_rock_bright_monolith1</td>
+      <td>-</td>
+      <td>snow_rocks</td>
+      <td>P3D</td>
+      <td>dz/rocks/snow_rocks</td>
+      <td>✅</td>
+      <td>Sakhal rock</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">snow_rock_bright_monolith2</td>
+      <td>-</td>
+      <td>snow_rocks</td>
+      <td>P3D</td>
+      <td>dz/rocks/snow_rocks</td>
+      <td>✅</td>
+      <td>Sakhal rock</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">snow_rock_bright_monolith3</td>
+      <td>-</td>
+      <td>snow_rocks</td>
+      <td>P3D</td>
+      <td>dz/rocks/snow_rocks</td>
+      <td>✅</td>
+      <td>Sakhal rock</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">snow_rock_bright_monolith4</td>
+      <td>-</td>
+      <td>snow_rocks</td>
+      <td>P3D</td>
+      <td>dz/rocks/snow_rocks</td>
+      <td>✅</td>
+      <td>Sakhal rock</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">snow_rock_bright_spike1</td>
+      <td>-</td>
+      <td>snow_rocks</td>
+      <td>P3D</td>
+      <td>dz/rocks/snow_rocks</td>
+      <td>✅</td>
+      <td>Sakhal rock</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">snow_rock_bright_spike2</td>
+      <td>-</td>
+      <td>snow_rocks</td>
+      <td>P3D</td>
+      <td>dz/rocks/snow_rocks</td>
+      <td>✅</td>
+      <td>Sakhal rock</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">snow_rock_bright_spike3</td>
+      <td>-</td>
+      <td>snow_rocks</td>
+      <td>P3D</td>
+      <td>dz/rocks/snow_rocks</td>
+      <td>✅</td>
+      <td>Sakhal rock</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">snow_rock_bright_wallh1</td>
+      <td>-</td>
+      <td>snow_rocks</td>
+      <td>P3D</td>
+      <td>dz/rocks/snow_rocks</td>
+      <td>✅</td>
+      <td>Sakhal rock</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">snow_rock_bright_wallh2</td>
+      <td>-</td>
+      <td>snow_rocks</td>
+      <td>P3D</td>
+      <td>dz/rocks/snow_rocks</td>
+      <td>✅</td>
+      <td>Sakhal rock</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">snow_rock_bright_wallh3</td>
+      <td>-</td>
+      <td>snow_rocks</td>
+      <td>P3D</td>
+      <td>dz/rocks/snow_rocks</td>
+      <td>✅</td>
+      <td>Sakhal rock</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">snow_rock_bright_wallv</td>
+      <td>-</td>
+      <td>snow_rocks</td>
+      <td>P3D</td>
+      <td>dz/rocks/snow_rocks</td>
+      <td>✅</td>
+      <td>Sakhal rock</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">snow_rock_monolith1</td>
+      <td>-</td>
+      <td>snow_rocks</td>
+      <td>P3D</td>
+      <td>dz/rocks/snow_rocks</td>
+      <td>✅</td>
+      <td>Sakhal rock</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">snow_rock_monolith2</td>
+      <td>-</td>
+      <td>snow_rocks</td>
+      <td>P3D</td>
+      <td>dz/rocks/snow_rocks</td>
+      <td>✅</td>
+      <td>Sakhal rock</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">snow_rock_monolith3</td>
+      <td>-</td>
+      <td>snow_rocks</td>
+      <td>P3D</td>
+      <td>dz/rocks/snow_rocks</td>
+      <td>✅</td>
+      <td>Sakhal rock</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">snow_rock_monolith4</td>
+      <td>-</td>
+      <td>snow_rocks</td>
+      <td>P3D</td>
+      <td>dz/rocks/snow_rocks</td>
+      <td>✅</td>
+      <td>Sakhal rock</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">snow_rock_spike1</td>
+      <td>-</td>
+      <td>snow_rocks</td>
+      <td>P3D</td>
+      <td>dz/rocks/snow_rocks</td>
+      <td>✅</td>
+      <td>Sakhal rock</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">snow_rock_spike2</td>
+      <td>-</td>
+      <td>snow_rocks</td>
+      <td>P3D</td>
+      <td>dz/rocks/snow_rocks</td>
+      <td>✅</td>
+      <td>Sakhal rock</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">snow_rock_spike3</td>
+      <td>-</td>
+      <td>snow_rocks</td>
+      <td>P3D</td>
+      <td>dz/rocks/snow_rocks</td>
+      <td>✅</td>
+      <td>Sakhal rock</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">snow_rock_wallh1</td>
+      <td>-</td>
+      <td>snow_rocks</td>
+      <td>P3D</td>
+      <td>dz/rocks/snow_rocks</td>
+      <td>✅</td>
+      <td>Sakhal rock</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">snow_rock_wallh2</td>
+      <td>-</td>
+      <td>snow_rocks</td>
+      <td>P3D</td>
+      <td>dz/rocks/snow_rocks</td>
+      <td>✅</td>
+      <td>Sakhal rock</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">snow_rock_wallh3</td>
+      <td>-</td>
+      <td>snow_rocks</td>
+      <td>P3D</td>
+      <td>dz/rocks/snow_rocks</td>
+      <td>✅</td>
+      <td>Sakhal rock</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">snow_rock_wallv</td>
+      <td>-</td>
+      <td>snow_rocks</td>
+      <td>P3D</td>
+      <td>dz/rocks/snow_rocks</td>
+      <td>✅</td>
+      <td>Sakhal rock</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">snow_stone1</td>
+      <td>-</td>
+      <td>snow_rocks</td>
+      <td>P3D</td>
+      <td>dz/rocks/snow_rocks</td>
+      <td>✅</td>
+      <td>Sakhal rock</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">snow_stone2</td>
+      <td>-</td>
+      <td>snow_rocks</td>
+      <td>P3D</td>
+      <td>dz/rocks/snow_rocks</td>
+      <td>✅</td>
+      <td>Sakhal rock</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">snow_stone3</td>
+      <td>-</td>
+      <td>snow_rocks</td>
+      <td>P3D</td>
+      <td>dz/rocks/snow_rocks</td>
+      <td>✅</td>
+      <td>Sakhal rock</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">snow_stone4</td>
+      <td>-</td>
+      <td>snow_rocks</td>
+      <td>P3D</td>
+      <td>dz/rocks/snow_rocks</td>
+      <td>✅</td>
+      <td>Sakhal rock</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">snow_stone5_trail_b</td>
+      <td>-</td>
+      <td>snow_rocks</td>
+      <td>P3D</td>
+      <td>dz/rocks/snow_rocks</td>
+      <td>✅</td>
+      <td>Sakhal rock</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">snow_stone5_trail_g</td>
+      <td>-</td>
+      <td>snow_rocks</td>
+      <td>P3D</td>
+      <td>dz/rocks/snow_rocks</td>
+      <td>✅</td>
+      <td>Sakhal rock</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">snow_stone5_trail_r</td>
+      <td>-</td>
+      <td>snow_rocks</td>
+      <td>P3D</td>
+      <td>dz/rocks/snow_rocks</td>
+      <td>✅</td>
+      <td>Sakhal rock</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">snow_stone5_trail_y</td>
+      <td>-</td>
+      <td>snow_rocks</td>
+      <td>P3D</td>
+      <td>dz/rocks/snow_rocks</td>
+      <td>✅</td>
+      <td>Sakhal rock</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">snow_stone5</td>
+      <td>-</td>
+      <td>snow_rocks</td>
+      <td>P3D</td>
+      <td>dz/rocks/snow_rocks</td>
+      <td>✅</td>
+      <td>Sakhal rock</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">snow_stones_erosion</td>
+      <td>-</td>
+      <td>snow_rocks</td>
+      <td>P3D</td>
+      <td>dz/rocks/snow_rocks</td>
+      <td>✅</td>
+      <td>Sakhal rock</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">rock_wallh4</td>
+      <td>-</td>
+      <td>rocks_bliss</td>
+      <td>P3D</td>
+      <td>dz/rocks_bliss</td>
+      <td>✅</td>
+      <td>Livonia rock</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">rock_wallh5</td>
+      <td>-</td>
+      <td>rocks_bliss</td>
+      <td>P3D</td>
+      <td>dz/rocks_bliss</td>
+      <td>✅</td>
+      <td>Livonia rock</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">rock_wallh6</td>
+      <td>-</td>
+      <td>rocks_bliss</td>
+      <td>P3D</td>
+      <td>dz/rocks_bliss</td>
+      <td>✅</td>
+      <td>Livonia rock</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">stone6_moss_lc</td>
+      <td>-</td>
+      <td>rocks_bliss</td>
+      <td>P3D</td>
+      <td>dz/rocks_bliss</td>
+      <td>✅</td>
+      <td>Livonia rock</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">stone6_moss</td>
+      <td>-</td>
+      <td>rocks_bliss</td>
+      <td>P3D</td>
+      <td>dz/rocks_bliss</td>
+      <td>✅</td>
+      <td>Livonia rock</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">stone6</td>
+      <td>-</td>
+      <td>rocks_bliss</td>
+      <td>P3D</td>
+      <td>dz/rocks_bliss</td>
+      <td>✅</td>
+      <td>Livonia rock</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">stone7_moss_lc</td>
+      <td>-</td>
+      <td>rocks_bliss</td>
+      <td>P3D</td>
+      <td>dz/rocks_bliss</td>
+      <td>✅</td>
+      <td>Livonia rock</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">stone7_moss</td>
+      <td>-</td>
+      <td>rocks_bliss</td>
+      <td>P3D</td>
+      <td>dz/rocks_bliss</td>
+      <td>✅</td>
+      <td>Livonia rock</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">stone7_trail_b</td>
+      <td>-</td>
+      <td>rocks_bliss</td>
+      <td>P3D</td>
+      <td>dz/rocks_bliss</td>
+      <td>✅</td>
+      <td>Livonia rock</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">stone7_trail_g</td>
+      <td>-</td>
+      <td>rocks_bliss</td>
+      <td>P3D</td>
+      <td>dz/rocks_bliss</td>
+      <td>✅</td>
+      <td>Livonia rock</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">stone7_trail_r</td>
+      <td>-</td>
+      <td>rocks_bliss</td>
+      <td>P3D</td>
+      <td>dz/rocks_bliss</td>
+      <td>✅</td>
+      <td>Livonia rock</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">stone7_trail_y</td>
+      <td>-</td>
+      <td>rocks_bliss</td>
+      <td>P3D</td>
+      <td>dz/rocks_bliss</td>
+      <td>✅</td>
+      <td>Livonia rock</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">stone7</td>
+      <td>-</td>
+      <td>rocks_bliss</td>
+      <td>P3D</td>
+      <td>dz/rocks_bliss</td>
+      <td>✅</td>
+      <td>Livonia rock</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">stone8_carving</td>
+      <td>-</td>
+      <td>rocks_bliss</td>
+      <td>P3D</td>
+      <td>dz/rocks_bliss</td>
+      <td>✅</td>
+      <td>Livonia rock</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">stone8_moss_lc</td>
+      <td>-</td>
+      <td>rocks_bliss</td>
+      <td>P3D</td>
+      <td>dz/rocks_bliss</td>
+      <td>✅</td>
+      <td>Livonia rock</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">stone8_moss</td>
+      <td>-</td>
+      <td>rocks_bliss</td>
+      <td>P3D</td>
+      <td>dz/rocks_bliss</td>
+      <td>✅</td>
+      <td>Livonia rock</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">stone8</td>
+      <td>-</td>
+      <td>rocks_bliss</td>
+      <td>P3D</td>
+      <td>dz/rocks_bliss</td>
+      <td>✅</td>
+      <td>Livonia rock</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">stone9_moss_lc</td>
+      <td>-</td>
+      <td>rocks_bliss</td>
+      <td>P3D</td>
+      <td>dz/rocks_bliss</td>
+      <td>✅</td>
+      <td>Livonia rock</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">stone9_moss</td>
+      <td>-</td>
+      <td>rocks_bliss</td>
+      <td>P3D</td>
+      <td>dz/rocks_bliss</td>
+      <td>✅</td>
+      <td>Livonia rock</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">stone9</td>
+      <td>-</td>
+      <td>rocks_bliss</td>
+      <td>P3D</td>
+      <td>dz/rocks_bliss</td>
+      <td>✅</td>
+      <td>Livonia rock</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">stone10_moss_lc</td>
+      <td>-</td>
+      <td>rocks_bliss</td>
+      <td>P3D</td>
+      <td>dz/rocks_bliss</td>
+      <td>✅</td>
+      <td>Livonia rock</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">stone10_moss</td>
+      <td>-</td>
+      <td>rocks_bliss</td>
+      <td>P3D</td>
+      <td>dz/rocks_bliss</td>
+      <td>✅</td>
+      <td>Livonia rock</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">stone10</td>
+      <td>-</td>
+      <td>rocks_bliss</td>
+      <td>P3D</td>
+      <td>dz/rocks_bliss</td>
+      <td>✅</td>
+      <td>Livonia rock</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">b_piceaabies_1f_summer.p3d</td>
+      <td>-</td>
+      <td>tree</td>
+      <td>P3D</td>
+      <td>dz/plants_bliss/tree</td>
+      <td>✅</td>
+      <td>Livonia tree</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">b_piceaabies_1fb_summer.p3d</td>
+      <td>-</td>
+      <td>tree</td>
+      <td>P3D</td>
+      <td>dz/plants_bliss/tree</td>
+      <td>✅</td>
+      <td>Livonia tree</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">d_betulapendula_fallen.p3d</td>
+      <td>-</td>
+      <td>tree</td>
+      <td>P3D</td>
+      <td>dz/plants_bliss/tree</td>
+      <td>✅</td>
+      <td>Livonia tree</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">d_betulapendula_stump.p3d</td>
+      <td>-</td>
+      <td>tree</td>
+      <td>P3D</td>
+      <td>dz/plants_bliss/tree</td>
+      <td>✅</td>
+      <td>Livonia tree</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">d_piceaabies_fallend.p3d</td>
+      <td>-</td>
+      <td>tree</td>
+      <td>P3D</td>
+      <td>dz/plants_bliss/tree</td>
+      <td>✅</td>
+      <td>Livonia tree</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">d_piceaabies_fallene.p3d</td>
+      <td>-</td>
+      <td>tree</td>
+      <td>P3D</td>
+      <td>dz/plants_bliss/tree</td>
+      <td>✅</td>
+      <td>Livonia tree</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">d_piceaabies_stumpc.p3d</td>
+      <td>-</td>
+      <td>tree</td>
+      <td>P3D</td>
+      <td>dz/plants_bliss/tree</td>
+      <td>✅</td>
+      <td>Livonia tree</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">d_piceaabies_stumpd.p3d</td>
+      <td>-</td>
+      <td>tree</td>
+      <td>P3D</td>
+      <td>dz/plants_bliss/tree</td>
+      <td>✅</td>
+      <td>Livonia tree</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_acer_2s_summer.p3d</td>
+      <td>-</td>
+      <td>tree</td>
+      <td>P3D</td>
+      <td>dz/plants_bliss/tree</td>
+      <td>✅</td>
+      <td>Livonia tree</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_betulapendulae_1s_summer.p3d</td>
+      <td>-</td>
+      <td>tree</td>
+      <td>P3D</td>
+      <td>dz/plants_bliss/tree</td>
+      <td>✅</td>
+      <td>Livonia tree</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_betulapendulae_2f_summer.p3d</td>
+      <td>-</td>
+      <td>tree</td>
+      <td>P3D</td>
+      <td>dz/plants_bliss/tree</td>
+      <td>✅</td>
+      <td>Livonia tree</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_betulapendulae_2s_summer.p3d</td>
+      <td>-</td>
+      <td>tree</td>
+      <td>P3D</td>
+      <td>dz/plants_bliss/tree</td>
+      <td>✅</td>
+      <td>Livonia tree</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_betulapendulae_2w_summer.p3d</td>
+      <td>-</td>
+      <td>tree</td>
+      <td>P3D</td>
+      <td>dz/plants_bliss/tree</td>
+      <td>✅</td>
+      <td>Livonia tree</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_betulapendulae_3f_summer.p3d</td>
+      <td>-</td>
+      <td>tree</td>
+      <td>P3D</td>
+      <td>dz/plants_bliss/tree</td>
+      <td>✅</td>
+      <td>Livonia tree</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_betulapendulae_3s_summer.p3d</td>
+      <td>-</td>
+      <td>tree</td>
+      <td>P3D</td>
+      <td>dz/plants_bliss/tree</td>
+      <td>✅</td>
+      <td>Livonia tree</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">c_beech_big_summer.p3d</td>
+      <td>-</td>
+      <td>clutter</td>
+      <td>P3D</td>
+      <td>dz/plants_bliss/clutter</td>
+      <td>✅</td>
+      <td>Livonia clutter</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">c_beech_mid_summer.p3d</td>
+      <td>-</td>
+      <td>clutter</td>
+      <td>P3D</td>
+      <td>dz/plants_bliss/clutter</td>
+      <td>✅</td>
+      <td>Livonia clutter</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">c_beech_small_summer.p3d</td>
+      <td>-</td>
+      <td>clutter</td>
+      <td>P3D</td>
+      <td>dz/plants_bliss/clutter</td>
+      <td>✅</td>
+      <td>Livonia clutter</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">c_branches_deciduous_summer.p3d</td>
+      <td>-</td>
+      <td>clutter</td>
+      <td>P3D</td>
+      <td>dz/plants_bliss/clutter</td>
+      <td>✅</td>
+      <td>Livonia clutter</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">c_branches_picea_summer.p3d</td>
+      <td>-</td>
+      <td>clutter</td>
+      <td>P3D</td>
+      <td>dz/plants_bliss/clutter</td>
+      <td>✅</td>
+      <td>Livonia clutter</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">c_branchesbig_picea_summer.p3d</td>
+      <td>-</td>
+      <td>clutter</td>
+      <td>P3D</td>
+      <td>dz/plants_bliss/clutter</td>
+      <td>✅</td>
+      <td>Livonia clutter</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">c_concretegrass_bunch_summer.p3d</td>
+      <td>-</td>
+      <td>clutter</td>
+      <td>P3D</td>
+      <td>dz/plants_bliss/clutter</td>
+      <td>✅</td>
+      <td>Livonia clutter</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">c_cones_summer.p3d</td>
+      <td>-</td>
+      <td>clutter</td>
+      <td>P3D</td>
+      <td>dz/plants_bliss/clutter</td>
+      <td>✅</td>
+      <td>Livonia clutter</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">c_dirtgrass_bunch_summer.p3d</td>
+      <td>-</td>
+      <td>clutter</td>
+      <td>P3D</td>
+      <td>dz/plants_bliss/clutter</td>
+      <td>✅</td>
+      <td>Livonia clutter</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">c_elytrigia_green_summer.p3d</td>
+      <td>-</td>
+      <td>clutter</td>
+      <td>P3D</td>
+      <td>dz/plants_bliss/clutter</td>
+      <td>✅</td>
+      <td>Livonia clutter</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">b_betulanana_1s_summer.p3d</td>
+      <td>-</td>
+      <td>bush</td>
+      <td>P3D</td>
+      <td>dz/plants_bliss/bush</td>
+      <td>✅</td>
+      <td>Livonia bushes</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">b_caraganaarborescens_2s_summer.p3d</td>
+      <td>-</td>
+      <td>bush</td>
+      <td>P3D</td>
+      <td>dz/plants_bliss/bush</td>
+      <td>✅</td>
+      <td>Livonia bushes</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">b_corylusheterophylla_1s_summer.p3d</td>
+      <td>-</td>
+      <td>bush</td>
+      <td>P3D</td>
+      <td>dz/plants_bliss/bush</td>
+      <td>✅</td>
+      <td>Livonia bushes</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">b_corylusheterophylla_2s_summer.p3d</td>
+      <td>-</td>
+      <td>bush</td>
+      <td>P3D</td>
+      <td>dz/plants_bliss/bush</td>
+      <td>✅</td>
+      <td>Livonia bushes</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">b_fagussylvatica_1f_summer.p3d</td>
+      <td>-</td>
+      <td>bush</td>
+      <td>P3D</td>
+      <td>dz/plants_bliss/bush</td>
+      <td>✅</td>
+      <td>Livonia bushes</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">b_phragmitesaustralis_summer.p3d</td>
+      <td>-</td>
+      <td>bush</td>
+      <td>P3D</td>
+      <td>dz/plants_bliss/bush</td>
+      <td>✅</td>
+      <td>Livonia bushes</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">b_prunusspinosa_1s_summer.p3d</td>
+      <td>-</td>
+      <td>bush</td>
+      <td>P3D</td>
+      <td>dz/plants_bliss/bush</td>
+      <td>✅</td>
+      <td>Livonia bushes</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">b_prunusspinosa_2s_summer.p3d</td>
+      <td>-</td>
+      <td>bush</td>
+      <td>P3D</td>
+      <td>dz/plants_bliss/bush</td>
+      <td>✅</td>
+      <td>Livonia bushes</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">b_rosacanina_1s_summer.p3d</td>
+      <td>-</td>
+      <td>bush</td>
+      <td>P3D</td>
+      <td>dz/plants_bliss/bush</td>
+      <td>✅</td>
+      <td>Livonia bushes</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">b_rosacanina_2s_summer.p3d</td>
+      <td>-</td>
+      <td>bush</td>
+      <td>P3D</td>
+      <td>dz/plants_bliss/bush</td>
+      <td>✅</td>
+      <td>Livonia bushes</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">b_sambucusnigra_1s_summer.p3d</td>
+      <td>-</td>
+      <td>bush</td>
+      <td>P3D</td>
+      <td>dz/plants_bliss/bush</td>
+      <td>✅</td>
+      <td>Livonia bushes</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">b_sambucusnigra_2s_summer.p3d</td>
+      <td>-</td>
+      <td>bush</td>
+      <td>P3D</td>
+      <td>dz/plants_bliss/bush</td>
+      <td>✅</td>
+      <td>Livonia bushes</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">c_birchleaves_sparse.p3d</td>
+      <td>-</td>
+      <td>clutter</td>
+      <td>P3D</td>
+      <td>dz/plants_sakhal/clutter</td>
+      <td>✅</td>
+      <td>Sakhal clutter</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">c_birchleaves.p3d</td>
+      <td>-</td>
+      <td>clutter</td>
+      <td>P3D</td>
+      <td>dz/plants_sakhal/clutter</td>
+      <td>✅</td>
+      <td>Sakhal clutter</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">c_browngrass_flat.p3d</td>
+      <td>-</td>
+      <td>clutter</td>
+      <td>P3D</td>
+      <td>dz/plants_sakhal/clutter</td>
+      <td>✅</td>
+      <td>Sakhal clutter</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">c_browngrass_lump.p3d</td>
+      <td>-</td>
+      <td>clutter</td>
+      <td>P3D</td>
+      <td>dz/plants_sakhal/clutter</td>
+      <td>✅</td>
+      <td>Sakhal clutter</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">c_browngrass_tall.p3d</td>
+      <td>-</td>
+      <td>clutter</td>
+      <td>P3D</td>
+      <td>dz/plants_sakhal/clutter</td>
+      <td>✅</td>
+      <td>Sakhal clutter</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">c_browngrass_tall2.p3d</td>
+      <td>-</td>
+      <td>clutter</td>
+      <td>P3D</td>
+      <td>dz/plants_sakhal/clutter</td>
+      <td>✅</td>
+      <td>Sakhal clutter</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">c_browngrass.p3d</td>
+      <td>-</td>
+      <td>clutter</td>
+      <td>P3D</td>
+      <td>dz/plants_sakhal/clutter</td>
+      <td>✅</td>
+      <td>Sakhal clutter</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">c_drythistle.p3d</td>
+      <td>-</td>
+      <td>clutter</td>
+      <td>P3D</td>
+      <td>dz/plants_sakhal/clutter</td>
+      <td>✅</td>
+      <td>Sakhal clutter</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">c_greengrass_tall.p3d</td>
+      <td>-</td>
+      <td>clutter</td>
+      <td>P3D</td>
+      <td>dz/plants_sakhal/clutter</td>
+      <td>✅</td>
+      <td>Sakhal clutter</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">c_greengrass_tall2.p3d</td>
+      <td>-</td>
+      <td>clutter</td>
+      <td>P3D</td>
+      <td>dz/plants_sakhal/clutter</td>
+      <td>✅</td>
+      <td>Sakhal clutter</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">c_piceacluster.p3d</td>
+      <td>-</td>
+      <td>clutter</td>
+      <td>P3D</td>
+      <td>dz/plants_sakhal/clutter</td>
+      <td>✅</td>
+      <td>Sakhal clutter</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">c_piceacones.p3d</td>
+      <td>-</td>
+      <td>clutter</td>
+      <td>P3D</td>
+      <td>dz/plants_sakhal/clutter</td>
+      <td>✅</td>
+      <td>Sakhal clutter</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">c_stones_small.p3d</td>
+      <td>-</td>
+      <td>clutter</td>
+      <td>P3D</td>
+      <td>dz/plants_sakhal/clutter</td>
+      <td>✅</td>
+      <td>Sakhal clutter</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">c_stones.p3d</td>
+      <td>-</td>
+      <td>clutter</td>
+      <td>P3D</td>
+      <td>dz/plants_sakhal/clutter</td>
+      <td>✅</td>
+      <td>Sakhal clutter</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">c_twigs1.p3d</td>
+      <td>-</td>
+      <td>clutter</td>
+      <td>P3D</td>
+      <td>dz/plants_sakhal/clutter</td>
+      <td>✅</td>
+      <td>Sakhal clutter</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">c_twigs2.p3d</td>
+      <td>-</td>
+      <td>clutter</td>
+      <td>P3D</td>
+      <td>dz/plants_sakhal/clutter</td>
+      <td>✅</td>
+      <td>Sakhal clutter</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">c_volcanicstones_red.p3d</td>
+      <td>-</td>
+      <td>clutter</td>
+      <td>P3D</td>
+      <td>dz/plants_sakhal/clutter</td>
+      <td>✅</td>
+      <td>Sakhal clutter</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">c_volcanicstones_yellow.p3d</td>
+      <td>-</td>
+      <td>clutter</td>
+      <td>P3D</td>
+      <td>dz/plants_sakhal/clutter</td>
+      <td>✅</td>
+      <td>Sakhal clutter</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">b_piceaabies_1f_dark.p3d</td>
+      <td>-</td>
+      <td>plants/dark</td>
+      <td>P3D</td>
+      <td>dz/plants/sakhal/dark</td>
+      <td>✅</td>
+      <td>Sakhal dark</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">b_piceaabies_1fb_dark.p3d</td>
+      <td>-</td>
+      <td>plants/dark</td>
+      <td>P3D</td>
+      <td>dz/plants/sakhal/dark</td>
+      <td>✅</td>
+      <td>Sakhal dark</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">d_piceaabies_fallen_dark.p3d</td>
+      <td>-</td>
+      <td>plants/dark</td>
+      <td>P3D</td>
+      <td>dz/plants/sakhal/dark</td>
+      <td>✅</td>
+      <td>Sakhal dark</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">d_piceaabies_fallenb_dark.p3d</td>
+      <td>-</td>
+      <td>plants/dark</td>
+      <td>P3D</td>
+      <td>dz/plants/sakhal/dark</td>
+      <td>✅</td>
+      <td>Sakhal dark</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">d_piceaabies_fallenc_dark.p3d</td>
+      <td>-</td>
+      <td>plants/dark</td>
+      <td>P3D</td>
+      <td>dz/plants/sakhal/dark</td>
+      <td>✅</td>
+      <td>Sakhal dark</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">d_piceaabies_fallend_dark.p3d</td>
+      <td>-</td>
+      <td>plants/dark</td>
+      <td>P3D</td>
+      <td>dz/plants/sakhal/dark</td>
+      <td>✅</td>
+      <td>Sakhal dark</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">d_piceaabies_fallene_dark.p3d</td>
+      <td>-</td>
+      <td>plants/dark</td>
+      <td>P3D</td>
+      <td>dz/plants/sakhal/dark</td>
+      <td>✅</td>
+      <td>Sakhal dark</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">d_piceaabies_stump_dark.p3d</td>
+      <td>-</td>
+      <td>plants/dark</td>
+      <td>P3D</td>
+      <td>dz/plants/sakhal/dark</td>
+      <td>✅</td>
+      <td>Sakhal dark</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">d_piceaabies_stumpb_dark.p3d</td>
+      <td>-</td>
+      <td>plants/dark</td>
+      <td>P3D</td>
+      <td>dz/plants/sakhal/dark</td>
+      <td>✅</td>
+      <td>Sakhal dark</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">d_piceaabies_stumpc_dark.p3d</td>
+      <td>-</td>
+      <td>plants/dark</td>
+      <td>P3D</td>
+      <td>dz/plants/sakhal/dark</td>
+      <td>✅</td>
+      <td>Sakhal dark</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_piceaabies_1f_dark.p3d</td>
+      <td>-</td>
+      <td>plants/dark</td>
+      <td>P3D</td>
+      <td>dz/plants/sakhal/dark</td>
+      <td>✅</td>
+      <td>Sakhal dark</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_piceaabies_1s_dark.p3d</td>
+      <td>-</td>
+      <td>plants/dark</td>
+      <td>P3D</td>
+      <td>dz/plants/sakhal/dark</td>
+      <td>✅</td>
+      <td>Sakhal dark</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_piceaabies_1sb_dark.p3d</td>
+      <td>-</td>
+      <td>plants/dark</td>
+      <td>P3D</td>
+      <td>dz/plants/sakhal/dark</td>
+      <td>✅</td>
+      <td>Sakhal dark</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_piceaabies_2d_dark.p3d</td>
+      <td>-</td>
+      <td>plants/dark</td>
+      <td>P3D</td>
+      <td>dz/plants/sakhal/dark</td>
+      <td>✅</td>
+      <td>Sakhal dark</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_piceaabies_2f_dark.p3d</td>
+      <td>-</td>
+      <td>plants/dark</td>
+      <td>P3D</td>
+      <td>dz/plants/sakhal/dark</td>
+      <td>✅</td>
+      <td>Sakhal dark</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_piceaabies_2fb_dark.p3d</td>
+      <td>-</td>
+      <td>plants/dark</td>
+      <td>P3D</td>
+      <td>dz/plants/sakhal/dark</td>
+      <td>✅</td>
+      <td>Sakhal dark</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_piceaabies_2s_dark.p3d</td>
+      <td>-</td>
+      <td>plants/dark</td>
+      <td>P3D</td>
+      <td>dz/plants/sakhal/dark</td>
+      <td>✅</td>
+      <td>Sakhal dark</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_piceaabies_2sb_dark.p3d</td>
+      <td>-</td>
+      <td>plants/dark</td>
+      <td>P3D</td>
+      <td>dz/plants/sakhal/dark</td>
+      <td>✅</td>
+      <td>Sakhal dark</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_piceaabies_3d_dark.p3d</td>
+      <td>-</td>
+      <td>plants/dark</td>
+      <td>P3D</td>
+      <td>dz/plants/sakhal/dark</td>
+      <td>✅</td>
+      <td>Sakhal dark</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">b_piceaabies_1f_frozen.p3d</td>
+      <td>-</td>
+      <td>plants/frozen</td>
+      <td>P3D</td>
+      <td>dz/plants/sakhal/dark</td>
+      <td>✅</td>
+      <td>Sakhal frozen</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">b_piceaabies_1fb_frozen.p3d</td>
+      <td>-</td>
+      <td>plants/frozen</td>
+      <td>P3D</td>
+      <td>dz/plants/sakhal/dark</td>
+      <td>✅</td>
+      <td>Sakhal frozen</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_piceaabies_1f_frozen.p3d</td>
+      <td>-</td>
+      <td>plants/frozen</td>
+      <td>P3D</td>
+      <td>dz/plants/sakhal/dark</td>
+      <td>✅</td>
+      <td>Sakhal frozen</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_piceaabies_1s_frozen.p3d</td>
+      <td>-</td>
+      <td>plants/frozen</td>
+      <td>P3D</td>
+      <td>dz/plants/sakhal/dark</td>
+      <td>✅</td>
+      <td>Sakhal frozen</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_piceaabies_1sb_frozen.p3d</td>
+      <td>-</td>
+      <td>plants/frozen</td>
+      <td>P3D</td>
+      <td>dz/plants/sakhal/dark</td>
+      <td>✅</td>
+      <td>Sakhal frozen</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_piceaabies_2f_frozen.p3d</td>
+      <td>-</td>
+      <td>plants/frozen</td>
+      <td>P3D</td>
+      <td>dz/plants/sakhal/dark</td>
+      <td>✅</td>
+      <td>Sakhal frozen</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_piceaabies_2fb_frozen.p3d</td>
+      <td>-</td>
+      <td>plants/frozen</td>
+      <td>P3D</td>
+      <td>dz/plants/sakhal/dark</td>
+      <td>✅</td>
+      <td>Sakhal frozen</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_piceaabies_2s_frozen.p3d</td>
+      <td>-</td>
+      <td>plants/frozen</td>
+      <td>P3D</td>
+      <td>dz/plants/sakhal/dark</td>
+      <td>✅</td>
+      <td>Sakhal frozen</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">t_piceaabies_2sb_frozen.p3d</td>
+      <td>-</td>
+      <td>plants/frozen</td>
+      <td>P3D</td>
+      <td>dz/plants/sakhal/dark</td>
+      <td>✅</td>
+      <td>Sakhal frozen</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">b_betulahumilis_1s_winter.p3d</td>
+      <td>-</td>
+      <td>plants/winter</td>
+      <td>P3D</td>
+      <td>dz/plants_sakhal/winter</td>
+      <td>✅</td>
+      <td>Snow trees, Sakhal trees</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">b_betulanana_1s_winter.p3d</td>
+      <td>-</td>
+      <td>plants/winter</td>
+      <td>P3D</td>
+      <td>dz/plants_sakhal/winter</td>
+      <td>✅</td>
+      <td>Snow trees, Sakhal trees</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">b_betulapendula_1f_winter.p3d</td>
+      <td>-</td>
+      <td>plants/winter</td>
+      <td>P3D</td>
+      <td>dz/plants_sakhal/winter</td>
+      <td>✅</td>
+      <td>Snow trees, Sakhal trees</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">b_caraganaarborescens_2s_winter.p3d</td>
+      <td>-</td>
+      <td>plants/winter</td>
+      <td>P3D</td>
+      <td>dz/plants_sakhal/winter</td>
+      <td>✅</td>
+      <td>Snow trees, Sakhal trees</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">b_piceaabies_1f_winter.p3d</td>
+      <td>-</td>
+      <td>plants/winter</td>
+      <td>P3D</td>
+      <td>dz/plants_sakhal/winter</td>
+      <td>✅</td>
+      <td>Snow trees, Sakhal trees</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">b_piceaabies_1fb_winter.p3d</td>
+      <td>-</td>
+      <td>plants/winter</td>
+      <td>P3D</td>
+      <td>dz/plants_sakhal/winter</td>
+      <td>✅</td>
+      <td>Snow trees, Sakhal trees</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">d_betulapendula_fallen_winter.p3d</td>
+      <td>-</td>
+      <td>plants/winter</td>
+      <td>P3D</td>
+      <td>dz/plants_sakhal/winter</td>
+      <td>✅</td>
+      <td>Snow trees, Sakhal trees</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">d_betulapendula_stump_winter.p3d</td>
+      <td>-</td>
+      <td>plants/winter</td>
+      <td>P3D</td>
+      <td>dz/plants_sakhal/winter</td>
+      <td>✅</td>
+      <td>Snow trees, Sakhal trees</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">d_piceaabies_fallen_winter.p3d</td>
+      <td>-</td>
+      <td>plants/winter</td>
+      <td>P3D</td>
+      <td>dz/plants_sakhal/winter</td>
+      <td>✅</td>
+      <td>Snow trees, Sakhal trees</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">d_piceaabies_fallenb_winter.p3d</td>
+      <td>-</td>
+      <td>plants/winter</td>
+      <td>P3D</td>
+      <td>dz/plants_sakhal/winter</td>
+      <td>✅</td>
+      <td>Snow trees, Sakhal trees</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">rock_lava_boulder1.p3d</td>
+      <td>-</td>
+      <td>rocks</td>
+      <td>P3D</td>
+      <td>dz/rocks_sakhal</td>
+      <td>✅</td>
+      <td>Sakhal rock</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">rock_lava_boulder2.p3d</td>
+      <td>-</td>
+      <td>rocks</td>
+      <td>P3D</td>
+      <td>dz/rocks_sakhal</td>
+      <td>✅</td>
+      <td>Sakhal rock</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">rock_lava_boulder3.p3d</td>
+      <td>-</td>
+      <td>rocks</td>
+      <td>P3D</td>
+      <td>dz/rocks_sakhal</td>
+      <td>✅</td>
+      <td>Sakhal rock</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">rock_lava_boulder4.p3d</td>
+      <td>-</td>
+      <td>rocks</td>
+      <td>P3D</td>
+      <td>dz/rocks_sakhal</td>
+      <td>✅</td>
+      <td>Sakhal rock</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">rock_monolith5_int.p3d</td>
+      <td>-</td>
+      <td>rocks</td>
+      <td>P3D</td>
+      <td>dz/rocks_sakhal</td>
+      <td>✅</td>
+      <td>Sakhal rock</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">rock_monolith5_snow.p3d</td>
+      <td>-</td>
+      <td>rocks</td>
+      <td>P3D</td>
+      <td>dz/rocks_sakhal</td>
+      <td>✅</td>
+      <td>Sakhal rock</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">rock_monolith5.p3d</td>
+      <td>-</td>
+      <td>rocks</td>
+      <td>P3D</td>
+      <td>dz/rocks_sakhal</td>
+      <td>✅</td>
+      <td>Sakhal rock</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">rock_spike4_int.p3d</td>
+      <td>-</td>
+      <td>rocks</td>
+      <td>P3D</td>
+      <td>dz/rocks_sakhal</td>
+      <td>✅</td>
+      <td>Sakhal rock</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">rock_spike4_snow.p3d</td>
+      <td>-</td>
+      <td>rocks</td>
+      <td>P3D</td>
+      <td>dz/rocks_sakhal</td>
+      <td>✅</td>
+      <td>Sakhal rock</td>
+    </tr>
+    
+    <tr>
+      <td data-image="">rock_spike4.p3d</td>
+      <td>-</td>
+      <td>rocks</td>
+      <td>P3D</td>
+      <td>dz/rocks_sakhal</td>
+      <td>✅</td>
+      <td>Sakhal rock</td>
+    </tr>
+    
+  </tbody>
+</table>
+
+
+<link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
+<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+<script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+
+<script>
+$(document).ready(function() {
+  var table = $('#dayzObjects').DataTable({
+    columnDefs: [
+      { targets: [6], visible: false } 
+    ],
+    pageLength: 25,
+    deferRender: true,
+    responsive: true,
+    dom: '<"top-bar"lfr>tip' 
+  });
+
+  
+  $("#filters").insertBefore("#dayzObjects_wrapper .top-bar");
+
+  
+  var categories = [];
+  table.column(2).data().each(function(value) {
+    if (categories.indexOf(value) === -1 && value !== "") {
+      categories.push(value);
+    }
+  });
+  categories.sort();
+  categories.forEach(function(cat) {
+    $('#filterCategory').append('<option value="' + cat + '">' + cat + '</option>');
+  });
+
+  
+  $('#filterCategory').on('change', function() {
+    table.column(2).search(this.value).draw();
+  });
+  $('#filterConsole').on('change', function() {
+    table.column(5).search(this.value).draw();
+  });
+
+  
+  $('#dayzObjects tbody').on('mouseenter', 'td:first-child', function (event) {
+    var imgPath = $(this).attr('data-image');
+    if (!imgPath || imgPath.trim() === "") return;
+    var imgSrc = '/' + imgPath;
+    $('body').append(
+      '<div id="imgPreview" style="position:absolute; z-index:9999; border:1px solid #ccc; background:#fff; padding:5px; box-shadow:0 2px 6px rgba(0,0,0,0.2);">' +
+      '<img src="' + imgSrc + '" style="max-width:200px; max-height:200px;">' +
+      '</div>'
+    );
+    $('#imgPreview').css({ top: event.pageY + 10, left: event.pageX + 10 });
+  }).on('mousemove', 'td:first-child', function (event) {
+    $('#imgPreview').css({ top: event.pageY + 10, left: event.pageX + 10 });
+  }).on('mouseleave', 'td:first-child', function () {
+    $('#imgPreview').remove();
+  });
+});
+</script>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="http://localhost:1313/" >
+    &copy;  Sams DayZ Object Database 2025 
+  </a>
+    <div><div class="ananke-socials"></div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>

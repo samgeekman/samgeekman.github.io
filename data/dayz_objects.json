@@ -1,0 +1,4054 @@
+[
+  
+  {
+    "objectName": "ChristmasTree",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Config",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "santa, festive, seasonal",
+    "image": "images/tree/christmas_tree.jpg"
+  },
+  
+   {
+    "objectName": "ChristmasTree_Green",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Config",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "santa, festive, seasonal",
+    "image": "images/tree/christmas_tree_green.jpg"
+  },
+  
+  {
+    "objectName": "t_piceaabies_2s_xmas.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "santa, festive, seasonal",
+    "image": "images/tree/christmas_tree.jpg"
+  },
+  
+  {
+    "objectName": "t_piceaabies_2s_green_xmas.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "santa, festive, seasonal",
+    "image": "images/tree/christmas_tree_green.jpg"
+  },
+
+  {
+    "objectName": "d_quercusrobur_fallenb.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "dead tree",
+    "image": ""
+    
+  },
+  
+  {
+    "objectName": "t_quercusrobur_1fb.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+
+  {
+    "objectName": "t_piceaabies_3f_trail_r.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+
+   {
+    "objectName": "t_betulapendula_1s.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+
+  {
+    "objectName": "t_prunusdomestica_2s.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+
+
+   {
+    "objectName": "t_prunusdomestica_2s.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+
+  {
+    "objectName": "t_populusalba_2s.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+
+  {
+    "objectName": "t_quercusrobur_3s.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+
+   {
+    "objectName": "t_quercusrobur_2fc.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+
+  {
+    "objectName": "d_piceaabies_fallen.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "dead tree",
+    "image": ""
+  },
+
+
+  {
+    "objectName": "t_fagusSylvatica_1fe.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  
+  {
+    "objectName": "d_piceaables_stump.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "dead tree",
+    "image": ""
+  },
+  {
+    "objectName": "t_quercusrobur_2fb.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "t_larixdecidua_2s.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "t_robinapseudoacacia_2s.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "b_quercusrobur_1f.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "bush",
+    "image": ""
+  },
+  {
+    "objectName": "t_fagussylvatica_1fd.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "t_fraxinusexcelsior_2s.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "t_piceaables_2f.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "t_town_1s.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "t_fagussylvatica_3f.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "t_pinussyvestris_3s.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "t_pyruscommunis_3s.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "t_fagussylvatica_1fc.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "t_piceaables_1sb.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "t_quercusrobur_1f.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "t_piceaables_2fb.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "t_quercusrobur_2sc.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "t_piceaables_2s_xmas.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "t_fagussylvatica_1fb.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "t_fagussylvatica_2sb_trail_q.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "t_piceaables_2d.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "t_salixalba_2s.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+
+  {
+    "objectName": "d_fagussylvatica_stump.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "dead tree",
+    "image": ""
+  },
+  
+  {
+    "objectName": "t_fagussylvatica_3d.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  
+  {
+    "objectName": "t_quercusrobur_2sb.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  
+  {
+    "objectName": "t_betulapendula_2f.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  
+  {
+    "objectName": "t_fagussylvatica_1s.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "dead tree",
+    "image": ""
+  },
+  
+  {
+    "objectName": "t_quercusrobur_3fb.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  
+  {
+    "objectName": "d_fagussylvatica_stump.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "dead tree",
+    "image": ""
+  },
+  
+  {
+    "objectName": "t_pinussylvestris_1f.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  
+  {
+    "objectName": "d_pinussylvestris_stump.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "dead tree",
+    "image": ""
+  },
+  
+  {
+    "objectName": "t_populusnigra_3s.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  
+  {
+    "objectName": "t_fagussylvatica_2f.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  
+  {
+    "objectName": "t_piceaabies_2sb.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  
+  {
+    "objectName": "t_naked_2s.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  
+  {
+    "objectName": "t_salixalba_2sb_swamp.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  
+  {
+    "objectName": "t_fagussylvatica_2sb.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "fallen tree",
+    "image": ""
+  },
+  
+  {
+    "objectName": "t_piceaabies_3s.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  
+  {
+    "objectName": "t_fagussylvatica_2fb.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "fallen tree",
+    "image": ""
+  },
+  
+  {
+    "objectName": "t_fagussylvatica_3fb.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "fallen tree",
+    "image": ""
+  },
+  
+  {
+    "objectName": "t_larixdecidua_3f.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  
+  {
+    "objectName": "t_robiniapseudoacacia_3f.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  
+  {
+    "objectName": "t_quercusrobur_3sb.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  
+  {
+    "objectName": "t_malusdomestica_3s.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  
+  {
+    "objectName": "t_quercusrobur_2s.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  
+  {
+    "objectName": "t_juglansregia_3s.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  
+  {
+    "objectName": "d_fagussylvatica_stump.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "dead tree",
+    "image": ""
+  },
+
+  {
+    "objectName": "d_pinussylvestris_fallenc.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "dead tree",
+    "image": ""
+  },
+  
+  {
+    "objectName": "t_fagussylvatica_2sb_trail_b.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  
+  {
+    "objectName": "t_betulapendula_3s.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  
+  {
+    "objectName": "t_larixdecidua_1s.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  
+  {
+    "objectName": "t_larixdecidua_2fb.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "t_piceaabies_1f.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "t_piceaabies_3f_trail_g.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "d_pinussylvestris_fallenb.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "dead tree",
+    "image": ""
+  },
+  {
+    "objectName": "t_piceaabies_2s_green_xmas.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "t_fagussylvatica_2f.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "t_pinussylvestris_2s.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "t_pyruscommunis_2s.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "t_sorbus_2s.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "t_fagussylvatica_3fb_test.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "t_fagussylvatica_2sb_trail_y.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "t_fagussylvatica_2d.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "t_betulapendula_1f.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "t_larixdecidua_3fb.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "d_fagussylvatica_fallenc.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "dead tree",
+    "image": ""
+  },
+  {
+    "objectName": "t_betulapendula_1fb.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "t_betulapendula_2w.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "d_fagussylvatica_fallen.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "dead tree",
+    "image": ""
+  },
+  {
+    "objectName": "t_quercusrobur_3f.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "d_quercusrobur_stumpb.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "dead tree",
+    "image": ""
+  },
+  {
+    "objectName": "d_fagussylvatica_fallenb.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "dead tree",
+    "image": ""
+  },
+  {
+    "objectName": "t_naked_1s.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "b_piceaabies_1fb.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "bush",
+    "image": ""
+  },
+  {
+    "objectName": "t_piceaabies_2s.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+
+  {
+    "objectName": "d_pinussylvestris_stumpb.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  
+  {
+    "objectName": "t_piceaabies_3f_trail_b.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "t_fagussylvatica_3s.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "t_larixdecidua_2f.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "t_robiniapseudoacacia_2f.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "t_fraxinusexcelsior_2f.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "t_betulapendula_2fc.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "t_quercusrobur_3d.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "t_salixalba_2sb.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "t_malusdomestica_2s.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "t_quercusrobur_1s.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "t_pinussylvestris_3f.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "b_fagussylvatica_1f.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "t_juglansregia_2s.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "t_betulapendula_2fb.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "t_pinussylvestris_2fb.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "t_betulapendula_2s.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "t_piceaabies_3f_trail_y.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "t_populusalba_3s.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "t_fagussylvatica_1f.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "t_pinussylvestris_3d.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "t_pinussylvestris_1s.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "d_piceaabies_stumpb.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "t_betulapendula_3fc.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "t_fagussylvatica_2sb_trail_r.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "b_piceaabies_1f.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "t_pinussylvestris_3fc.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "t_betulapendula_3fb.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "t_pyruscommunis_3sb.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+
+  {
+    "objectName": "t_pinussylvestris_2sb.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  
+  {
+    "objectName": "d_piceaabies_fallenc.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "t_fraxinusexcelsior_3s.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "t_piceaabies_3f.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "t_pinussylvestris_3fb.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "t_populusalba_1f.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "d_piceaabies_fallenb.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "t_quercusrobur_2f.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "t_piceaabies_3d.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "t_quercusrobur_1fd.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "t_piceaabies_1s.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "t_town_1sb.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "t_betulapendula_3f.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "t_fagussylvatica_2s.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "t_larixdecidua_1f.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "t_robiniapseudoacacia_1f.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "d_pinussylvestris_fallen.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "d_quercusrobur_fallenc.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "t_carpinus_2s.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "t_quercusrobur_1fc.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "t_quercusrobur_2d.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "d_quercusrobur_stump.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  
+  {
+    "objectName": "t_malusdomestica_1s.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  
+  {
+    "objectName": "t_pinussylvestris_2f.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  
+  {
+    "objectName": "b_betulapendula_1f.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  
+  {
+    "objectName": "t_fraxinusexcelsior_2w.p3d",
+    "inGameName": "-",
+    "category": "Tree",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/tree",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+
+  {
+    "objectName": "c_anthoxanthum.p3d",
+    "inGameName": "-",
+    "category": "clutter",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/clutter",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "c_elytrigia.p3d",
+    "inGameName": "-",
+    "category": "clutter",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/clutter",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "c_polypodiophyta_c.p3d",
+    "inGameName": "-",
+    "category": "clutter",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/clutter",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "p_articum.p3d",
+    "inGameName": "-",
+    "category": "clutter",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/clutter",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "c_polypodiophyta_b.p3d",
+    "inGameName": "-",
+    "category": "clutter",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/clutter",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "l_plane_long.p3d",
+    "inGameName": "-",
+    "category": "clutter",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/clutter",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "c_lolium.p3d",
+    "inGameName": "-",
+    "category": "clutter",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/clutter",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "c_elytrigiaforest.p3d",
+    "inGameName": "-",
+    "category": "clutter",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/clutter",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "c_twigs.p3d",
+    "inGameName": "-",
+    "category": "clutter",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/clutter",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "p_helianthus.p3d",
+    "inGameName": "-",
+    "category": "clutter",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/clutter",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "c_leafs_spread.p3d",
+    "inGameName": "-",
+    "category": "clutter",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/clutter",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "c_calamagrostis.p3d",
+    "inGameName": "-",
+    "category": "clutter",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/clutter",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "c_carduus.p3d",
+    "inGameName": "-",
+    "category": "clutter",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/clutter",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "c_dirtgrass_bunch.p3d",
+    "inGameName": "-",
+    "category": "clutter",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/clutter",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "c_vaccinium_green.p3d",
+    "inGameName": "-",
+    "category": "clutter",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/clutter",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "c_vaccinium_red.p3d",
+    "inGameName": "-",
+    "category": "clutter",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/clutter",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "c_elytrigia_green.p3d",
+    "inGameName": "-",
+    "category": "clutter",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/clutter",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "l_plane.p3d",
+    "inGameName": "-",
+    "category": "clutter",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/clutter",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "l_large_pile.p3d",
+    "inGameName": "-",
+    "category": "clutter",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/clutter",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "c_hypericum.p3d",
+    "inGameName": "-",
+    "category": "clutter",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/clutter",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "c_vaccinium.p3d",
+    "inGameName": "-",
+    "category": "clutter",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/clutter",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "c_polypodiophyta_tall.p3d",
+    "inGameName": "-",
+    "category": "clutter",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/clutter",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "c_taraxacum.p3d",
+    "inGameName": "-",
+    "category": "clutter",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/clutter",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "c_twigs_b.p3d",
+    "inGameName": "-",
+    "category": "clutter",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/clutter",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "p_urtica.p3d",
+    "inGameName": "-",
+    "category": "clutter",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/clutter",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "c_anthoxanthum_bended.p3d",
+    "inGameName": "-",
+    "category": "clutter",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/clutter",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "c_hypericum_f.p3d",
+    "inGameName": "-",
+    "category": "clutter",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/clutter",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "c_undergrowth.p3d",
+    "inGameName": "-",
+    "category": "clutter",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/clutter",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "c_vaccinium_tall.p3d",
+    "inGameName": "-",
+    "category": "clutter",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/clutter",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "c_polypodiophyta.p3d",
+    "inGameName": "-",
+    "category": "clutter",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/clutter",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "p_phragmites.p3d",
+    "inGameName": "-",
+    "category": "clutter",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/clutter",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "c_undergrowth_red.p3d",
+    "inGameName": "-",
+    "category": "clutter",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/clutter",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "l_long_pile_b.p3d",
+    "inGameName": "-",
+    "category": "clutter",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/clutter",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "l_long_pile_a.p3d",
+    "inGameName": "-",
+    "category": "clutter",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/clutter",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "c_elytrigiatall.p3d",
+    "inGameName": "-",
+    "category": "clutter",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/clutter",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "c_pines.p3d",
+    "inGameName": "-",
+    "category": "clutter",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/clutter",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "c_concretegrass_bunch.p3d",
+    "inGameName": "-",
+    "category": "clutter",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/clutter",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "c_broadleaf_sprouts_tall.p3d",
+    "inGameName": "-",
+    "category": "clutter",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/clutter",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "p_heracleum.p3d",
+    "inGameName": "-",
+    "category": "clutter",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/clutter",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "c_carduus_f.p3d",
+    "inGameName": "-",
+    "category": "clutter",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/clutter",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "c_broadleaf_sprouts.p3d",
+    "inGameName": "-",
+    "category": "clutter",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/clutter",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "c_elytrigiadirt.p3d",
+    "inGameName": "-",
+    "category": "clutter",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/clutter",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "c_cones.p3d",
+    "inGameName": "-",
+    "category": "clutter",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/clutter",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "b_crataegustaevigata_2s.p3d",
+    "inGameName": "-",
+    "category": "bush",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/bush",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "b_betulahumilis_1s.p3d",
+    "inGameName": "-",
+    "category": "bush",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/bush",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "b_sambucusnigra_2s.p3d",
+    "inGameName": "-",
+    "category": "bush",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/bush",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "b_rosacanina_2s.p3d",
+    "inGameName": "-",
+    "category": "bush",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/bush",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "b_crataegustaevigata_1s.p3d",
+    "inGameName": "-",
+    "category": "bush",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/bush",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "b_sambucusnigra_1s.p3d",
+    "inGameName": "-",
+    "category": "bush",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/bush",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "b_rosacanina_1s.p3d",
+    "inGameName": "-",
+    "category": "bush",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/bush",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "b_prunusspinosa_2s.p3d",
+    "inGameName": "-",
+    "category": "bush",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/bush",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "b_prunusspinosa_1s.p3d",
+    "inGameName": "-",
+    "category": "bush",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/bush",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "b_naked_2s.p3d",
+    "inGameName": "-",
+    "category": "bush",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/bush",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "b_corylusavellana_1f.p3d",
+    "inGameName": "-",
+    "category": "bush",
+    "modelType": "Raw P3D",
+    "path": "dz/plants/bush",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  
+
+  {
+    "objectName": "rock_apart1",
+    "inGameName": "-",
+    "category": "rocks",
+    "modelType": "P3D",
+    "path": "dz/rocks",
+    "usableOnConsole": true,
+     "searchTags": "",
+    "image": ""
+  },
+
+  {
+    "objectName": "rock_apart2",
+    "inGameName": "-",
+    "category": "rocks",
+    "modelType": "P3D",
+    "path": "dz/rocks",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "rock_bright_apart1",
+    "inGameName": "-",
+    "category": "rocks",
+    "modelType": "P3D",
+    "path": "dz/rocks",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "rock_bright_apart2",
+    "inGameName": "-",
+    "category": "rocks",
+    "modelType": "P3D",
+    "path": "dz/rocks",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "rock_bright_monolith1",
+    "inGameName": "-",
+    "category": "rocks",
+    "modelType": "P3D",
+    "path": "dz/rocks",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "rock_bright_monolith2",
+    "inGameName": "-",
+    "category": "rocks",
+    "modelType": "P3D",
+    "path": "dz/rocks",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "rock_bright_monolith3",
+    "inGameName": "-",
+    "category": "rocks",
+    "modelType": "P3D",
+    "path": "dz/rocks",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "rock_bright_monolith4",
+    "inGameName": "-",
+    "category": "rocks",
+    "modelType": "P3D",
+    "path": "dz/rocks",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "rock_bright_spike1",
+    "inGameName": "-",
+    "category": "rocks",
+    "modelType": "P3D",
+    "path": "dz/rocks",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "rock_bright_spike2",
+    "inGameName": "-",
+    "category": "rocks",
+    "modelType": "P3D",
+    "path": "dz/rocks",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "rock_bright_spike3",
+    "inGameName": "-",
+    "category": "rocks",
+    "modelType": "P3D",
+    "path": "dz/rocks",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "rock_bright_wallh1",
+    "inGameName": "-",
+    "category": "rocks",
+    "modelType": "P3D",
+    "path": "dz/rocks",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "rock_bright_wallh2",
+    "inGameName": "-",
+    "category": "rocks",
+    "modelType": "P3D",
+    "path": "dz/rocks",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "rock_bright_wallh3",
+    "inGameName": "-",
+    "category": "rocks",
+    "modelType": "P3D",
+    "path": "dz/rocks",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "rock_bright_wallv",
+    "inGameName": "-",
+    "category": "rocks",
+    "modelType": "P3D",
+    "path": "dz/rocks",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "rock_monolith1",
+    "inGameName": "-",
+    "category": "rocks",
+    "modelType": "P3D",
+    "path": "dz/rocks",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "rock_monolith2",
+    "inGameName": "-",
+    "category": "rocks",
+    "modelType": "P3D",
+    "path": "dz/rocks",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "rock_monolith3",
+    "inGameName": "-",
+    "category": "rocks",
+    "modelType": "P3D",
+    "path": "dz/rocks",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "rock_monolith4",
+    "inGameName": "-",
+    "category": "rocks",
+    "modelType": "P3D",
+    "path": "dz/rocks",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "rock_spike1",
+    "inGameName": "-",
+    "category": "rocks",
+    "modelType": "P3D",
+    "path": "dz/rocks",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "rock_spike2",
+    "inGameName": "-",
+    "category": "rocks",
+    "modelType": "P3D",
+    "path": "dz/rocks",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "rock_spike3",
+    "inGameName": "-",
+    "category": "rocks",
+    "modelType": "P3D",
+    "path": "dz/rocks",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "rock_wallh1",
+    "inGameName": "-",
+    "category": "rocks",
+    "modelType": "P3D",
+    "path": "dz/rocks",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "rock_wallh2",
+    "inGameName": "-",
+    "category": "rocks",
+    "modelType": "P3D",
+    "path": "dz/rocks",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "rock_wallh3",
+    "inGameName": "-",
+    "category": "rocks",
+    "modelType": "P3D",
+    "path": "dz/rocks",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "rock_wallv",
+    "inGameName": "-",
+    "category": "rocks",
+    "modelType": "P3D",
+    "path": "dz/rocks",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "snow_rocks",
+    "inGameName": "-",
+    "category": "rocks",
+    "modelType": "P3D",
+    "path": "dz/rocks",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "stone1",
+    "inGameName": "-",
+    "category": "rocks",
+    "modelType": "P3D",
+    "path": "dz/rocks",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "stone2",
+    "inGameName": "-",
+    "category": "rocks",
+    "modelType": "P3D",
+    "path": "dz/rocks",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "stone3",
+    "inGameName": "-",
+    "category": "rocks",
+    "modelType": "P3D",
+    "path": "dz/rocks",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "stone4",
+    "inGameName": "-",
+    "category": "rocks",
+    "modelType": "P3D",
+    "path": "dz/rocks",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "stone5_trail_b",
+    "inGameName": "-",
+    "category": "rocks",
+    "modelType": "P3D",
+    "path": "dz/rocks",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "stone5_trail_g",
+    "inGameName": "-",
+    "category": "rocks",
+    "modelType": "P3D",
+    "path": "dz/rocks",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "stone5_trail_r",
+    "inGameName": "-",
+    "category": "rocks",
+    "modelType": "P3D",
+    "path": "dz/rocks",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "stone5_trail_y",
+    "inGameName": "-",
+    "category": "rocks",
+    "modelType": "P3D",
+    "path": "dz/rocks",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "stone5",
+    "inGameName": "-",
+    "category": "rocks",
+    "modelType": "P3D",
+    "path": "dz/rocks",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  {
+    "objectName": "stones_erosion",
+    "inGameName": "-",
+    "category": "rocks",
+    "modelType": "P3D",
+    "path": "dz/rocks",
+    "usableOnConsole": true,
+    "searchTags": "",
+    "image": ""
+  },
+  
+
+  {
+    "objectName": "snow_rock_apart1",
+    "inGameName": "-",
+    "category": "snow_rocks",
+    "modelType": "P3D",
+    "path": "dz/rocks/snow_rocks",
+    "usableOnConsole": true,
+    "searchTags": "Sakhal rock",
+    "image": ""
+  },
+  {
+    "objectName": "snow_rock_apart2",
+    "inGameName": "-",
+    "category": "snow_rocks",
+    "modelType": "P3D",
+    "path": "dz/rocks/snow_rocks",
+    "usableOnConsole": true,
+    "searchTags": "Sakhal rock",
+    "image": ""
+  },
+  {
+    "objectName": "snow_rock_bright_apart1",
+    "inGameName": "-",
+    "category": "snow_rocks",
+    "modelType": "P3D",
+    "path": "dz/rocks/snow_rocks",
+    "usableOnConsole": true,
+    "searchTags": "Sakhal rock",
+    "image": ""
+  },
+  {
+    "objectName": "snow_rock_bright_apart2",
+    "inGameName": "-",
+    "category": "snow_rocks",
+    "modelType": "P3D",
+    "path": "dz/rocks/snow_rocks",
+    "usableOnConsole": true,
+    "searchTags": "Sakhal rock",
+    "image": ""
+  },
+  {
+    "objectName": "snow_rock_bright_monolith1",
+    "inGameName": "-",
+    "category": "snow_rocks",
+    "modelType": "P3D",
+    "path": "dz/rocks/snow_rocks",
+    "usableOnConsole": true,
+    "searchTags": "Sakhal rock",
+    "image": ""
+  },
+  {
+    "objectName": "snow_rock_bright_monolith2",
+    "inGameName": "-",
+    "category": "snow_rocks",
+    "modelType": "P3D",
+    "path": "dz/rocks/snow_rocks",
+    "usableOnConsole": true,
+    "searchTags": "Sakhal rock",
+    "image": ""
+  },
+  {
+    "objectName": "snow_rock_bright_monolith3",
+    "inGameName": "-",
+    "category": "snow_rocks",
+    "modelType": "P3D",
+    "path": "dz/rocks/snow_rocks",
+    "usableOnConsole": true,
+    "searchTags": "Sakhal rock",
+    "image": ""
+  },
+  {
+    "objectName": "snow_rock_bright_monolith4",
+    "inGameName": "-",
+    "category": "snow_rocks",
+    "modelType": "P3D",
+    "path": "dz/rocks/snow_rocks",
+    "usableOnConsole": true,
+    "searchTags": "Sakhal rock",
+    "image": ""
+  },
+  {
+    "objectName": "snow_rock_bright_spike1",
+    "inGameName": "-",
+    "category": "snow_rocks",
+    "modelType": "P3D",
+    "path": "dz/rocks/snow_rocks",
+    "usableOnConsole": true,
+    "searchTags": "Sakhal rock",
+    "image": ""
+  },
+  {
+    "objectName": "snow_rock_bright_spike2",
+    "inGameName": "-",
+    "category": "snow_rocks",
+    "modelType": "P3D",
+    "path": "dz/rocks/snow_rocks",
+    "usableOnConsole": true,
+    "searchTags": "Sakhal rock",
+    "image": ""
+  },
+  {
+    "objectName": "snow_rock_bright_spike3",
+    "inGameName": "-",
+    "category": "snow_rocks",
+    "modelType": "P3D",
+    "path": "dz/rocks/snow_rocks",
+    "usableOnConsole": true,
+    "searchTags": "Sakhal rock",
+    "image": ""
+  },
+  {
+    "objectName": "snow_rock_bright_wallh1",
+    "inGameName": "-",
+    "category": "snow_rocks",
+    "modelType": "P3D",
+    "path": "dz/rocks/snow_rocks",
+    "usableOnConsole": true,
+    "searchTags": "Sakhal rock",
+    "image": ""
+  },
+  {
+    "objectName": "snow_rock_bright_wallh2",
+    "inGameName": "-",
+    "category": "snow_rocks",
+    "modelType": "P3D",
+    "path": "dz/rocks/snow_rocks",
+    "usableOnConsole": true,
+    "searchTags": "Sakhal rock",
+    "image": ""
+  },
+  {
+    "objectName": "snow_rock_bright_wallh3",
+    "inGameName": "-",
+    "category": "snow_rocks",
+    "modelType": "P3D",
+    "path": "dz/rocks/snow_rocks",
+    "usableOnConsole": true,
+    "searchTags": "Sakhal rock",
+    "image": ""
+  },
+  {
+    "objectName": "snow_rock_bright_wallv",
+    "inGameName": "-",
+    "category": "snow_rocks",
+    "modelType": "P3D",
+    "path": "dz/rocks/snow_rocks",
+    "usableOnConsole": true,
+    "searchTags": "Sakhal rock",
+    "image": ""
+  },
+  {
+    "objectName": "snow_rock_monolith1",
+    "inGameName": "-",
+    "category": "snow_rocks",
+    "modelType": "P3D",
+    "path": "dz/rocks/snow_rocks",
+    "usableOnConsole": true,
+    "searchTags": "Sakhal rock",
+    "image": ""
+  },
+  {
+    "objectName": "snow_rock_monolith2",
+    "inGameName": "-",
+    "category": "snow_rocks",
+    "modelType": "P3D",
+    "path": "dz/rocks/snow_rocks",
+    "usableOnConsole": true,
+    "searchTags": "Sakhal rock",
+    "image": ""
+  },
+  {
+    "objectName": "snow_rock_monolith3",
+    "inGameName": "-",
+    "category": "snow_rocks",
+    "modelType": "P3D",
+    "path": "dz/rocks/snow_rocks",
+    "usableOnConsole": true,
+    "searchTags": "Sakhal rock",
+    "image": ""
+  },
+  {
+    "objectName": "snow_rock_monolith4",
+    "inGameName": "-",
+    "category": "snow_rocks",
+    "modelType": "P3D",
+    "path": "dz/rocks/snow_rocks",
+    "usableOnConsole": true,
+    "searchTags": "Sakhal rock",
+    "image": ""
+  },
+  {
+    "objectName": "snow_rock_spike1",
+    "inGameName": "-",
+    "category": "snow_rocks",
+    "modelType": "P3D",
+    "path": "dz/rocks/snow_rocks",
+    "usableOnConsole": true,
+    "searchTags": "Sakhal rock",
+    "image": ""
+  },
+  {
+    "objectName": "snow_rock_spike2",
+    "inGameName": "-",
+    "category": "snow_rocks",
+    "modelType": "P3D",
+    "path": "dz/rocks/snow_rocks",
+    "usableOnConsole": true,
+    "searchTags": "Sakhal rock",
+    "image": ""
+  },
+  {
+    "objectName": "snow_rock_spike3",
+    "inGameName": "-",
+    "category": "snow_rocks",
+    "modelType": "P3D",
+    "path": "dz/rocks/snow_rocks",
+    "usableOnConsole": true,
+    "searchTags": "Sakhal rock",
+    "image": ""
+  },
+  {
+    "objectName": "snow_rock_wallh1",
+    "inGameName": "-",
+    "category": "snow_rocks",
+    "modelType": "P3D",
+    "path": "dz/rocks/snow_rocks",
+    "usableOnConsole": true,
+    "searchTags": "Sakhal rock",
+    "image": ""
+  },
+  {
+    "objectName": "snow_rock_wallh2",
+    "inGameName": "-",
+    "category": "snow_rocks",
+    "modelType": "P3D",
+    "path": "dz/rocks/snow_rocks",
+    "usableOnConsole": true,
+    "searchTags": "Sakhal rock",
+    "image": ""
+  },
+  {
+    "objectName": "snow_rock_wallh3",
+    "inGameName": "-",
+    "category": "snow_rocks",
+    "modelType": "P3D",
+    "path": "dz/rocks/snow_rocks",
+    "usableOnConsole": true,
+    "searchTags": "Sakhal rock",
+    "image": ""
+  },
+  {
+    "objectName": "snow_rock_wallv",
+    "inGameName": "-",
+    "category": "snow_rocks",
+    "modelType": "P3D",
+    "path": "dz/rocks/snow_rocks",
+    "usableOnConsole": true,
+    "searchTags": "Sakhal rock",
+    "image": ""
+  },
+  {
+    "objectName": "snow_stone1",
+    "inGameName": "-",
+    "category": "snow_rocks",
+    "modelType": "P3D",
+    "path": "dz/rocks/snow_rocks",
+    "usableOnConsole": true,
+    "searchTags": "Sakhal rock",
+    "image": ""
+  },
+  {
+    "objectName": "snow_stone2",
+    "inGameName": "-",
+    "category": "snow_rocks",
+    "modelType": "P3D",
+    "path": "dz/rocks/snow_rocks",
+    "usableOnConsole": true,
+    "searchTags": "Sakhal rock",
+    "image": ""
+  },
+  {
+    "objectName": "snow_stone3",
+    "inGameName": "-",
+    "category": "snow_rocks",
+    "modelType": "P3D",
+    "path": "dz/rocks/snow_rocks",
+    "usableOnConsole": true,
+    "searchTags": "Sakhal rock",
+    "image": ""
+  },
+  {
+    "objectName": "snow_stone4",
+    "inGameName": "-",
+    "category": "snow_rocks",
+    "modelType": "P3D",
+    "path": "dz/rocks/snow_rocks",
+    "usableOnConsole": true,
+    "searchTags": "Sakhal rock",
+    "image": ""
+  },
+  {
+    "objectName": "snow_stone5_trail_b",
+    "inGameName": "-",
+    "category": "snow_rocks",
+    "modelType": "P3D",
+    "path": "dz/rocks/snow_rocks",
+    "usableOnConsole": true,
+    "searchTags": "Sakhal rock",
+    "image": ""
+  },
+  {
+    "objectName": "snow_stone5_trail_g",
+    "inGameName": "-",
+    "category": "snow_rocks",
+    "modelType": "P3D",
+    "path": "dz/rocks/snow_rocks",
+    "usableOnConsole": true,
+    "searchTags": "Sakhal rock",
+    "image": ""
+  },
+  {
+    "objectName": "snow_stone5_trail_r",
+    "inGameName": "-",
+    "category": "snow_rocks",
+    "modelType": "P3D",
+    "path": "dz/rocks/snow_rocks",
+    "usableOnConsole": true,
+    "searchTags": "Sakhal rock",
+    "image": ""
+  },
+  {
+    "objectName": "snow_stone5_trail_y",
+    "inGameName": "-",
+    "category": "snow_rocks",
+    "modelType": "P3D",
+    "path": "dz/rocks/snow_rocks",
+    "usableOnConsole": true,
+    "searchTags": "Sakhal rock",
+    "image": ""
+  },
+  {
+    "objectName": "snow_stone5",
+    "inGameName": "-",
+    "category": "snow_rocks",
+    "modelType": "P3D",
+    "path": "dz/rocks/snow_rocks",
+    "usableOnConsole": true,
+    "searchTags": "Sakhal rock",
+    "image": ""
+  },
+  {
+    "objectName": "snow_stones_erosion",
+    "inGameName": "-",
+    "category": "snow_rocks",
+    "modelType": "P3D",
+    "path": "dz/rocks/snow_rocks",
+    "usableOnConsole": true,
+    "searchTags": "Sakhal rock",
+    "image": ""
+  },
+  
+  {
+    "objectName": "rock_wallh4",
+    "inGameName": "-",
+    "category": "rocks_bliss",
+    "modelType": "P3D",
+    "path": "dz/rocks_bliss",
+    "usableOnConsole": true,
+    "searchTags": "Livonia rock",
+    "image": ""
+  },
+  {
+    "objectName": "rock_wallh5",
+    "inGameName": "-",
+    "category": "rocks_bliss",
+    "modelType": "P3D",
+    "path": "dz/rocks_bliss",
+    "usableOnConsole": true,
+    "searchTags": "Livonia rock",
+    "image": ""
+  },
+  {
+    "objectName": "rock_wallh6",
+    "inGameName": "-",
+    "category": "rocks_bliss",
+    "modelType": "P3D",
+    "path": "dz/rocks_bliss",
+    "usableOnConsole": true,
+    "searchTags": "Livonia rock",
+    "image": ""
+  },
+  {
+    "objectName": "stone6_moss_lc",
+    "inGameName": "-",
+    "category": "rocks_bliss",
+    "modelType": "P3D",
+    "path": "dz/rocks_bliss",
+    "usableOnConsole": true,
+    "searchTags": "Livonia rock",
+    "image": ""
+  },
+  {
+    "objectName": "stone6_moss",
+    "inGameName": "-",
+    "category": "rocks_bliss",
+    "modelType": "P3D",
+    "path": "dz/rocks_bliss",
+    "usableOnConsole": true,
+    "searchTags": "Livonia rock",
+    "image": ""
+  },
+  {
+    "objectName": "stone6",
+    "inGameName": "-",
+    "category": "rocks_bliss",
+    "modelType": "P3D",
+    "path": "dz/rocks_bliss",
+    "usableOnConsole": true,
+    "searchTags": "Livonia rock",
+    "image": ""
+  },
+  {
+    "objectName": "stone7_moss_lc",
+    "inGameName": "-",
+    "category": "rocks_bliss",
+    "modelType": "P3D",
+    "path": "dz/rocks_bliss",
+    "usableOnConsole": true,
+    "searchTags": "Livonia rock",
+    "image": ""
+  },
+  {
+    "objectName": "stone7_moss",
+    "inGameName": "-",
+    "category": "rocks_bliss",
+    "modelType": "P3D",
+    "path": "dz/rocks_bliss",
+    "usableOnConsole": true,
+    "searchTags": "Livonia rock",
+    "image": ""
+  },
+  {
+    "objectName": "stone7_trail_b",
+    "inGameName": "-",
+    "category": "rocks_bliss",
+    "modelType": "P3D",
+    "path": "dz/rocks_bliss",
+    "usableOnConsole": true,
+    "searchTags": "Livonia rock",
+    "image": ""
+  },
+  {
+    "objectName": "stone7_trail_g",
+    "inGameName": "-",
+    "category": "rocks_bliss",
+    "modelType": "P3D",
+    "path": "dz/rocks_bliss",
+    "usableOnConsole": true,
+    "searchTags": "Livonia rock",
+    "image": ""
+  },
+  {
+    "objectName": "stone7_trail_r",
+    "inGameName": "-",
+    "category": "rocks_bliss",
+    "modelType": "P3D",
+    "path": "dz/rocks_bliss",
+    "usableOnConsole": true,
+    "searchTags": "Livonia rock",
+    "image": ""
+  },
+  {
+    "objectName": "stone7_trail_y",
+    "inGameName": "-",
+    "category": "rocks_bliss",
+    "modelType": "P3D",
+    "path": "dz/rocks_bliss",
+    "usableOnConsole": true,
+    "searchTags": "Livonia rock",
+    "image": ""
+  },
+  {
+    "objectName": "stone7",
+    "inGameName": "-",
+    "category": "rocks_bliss",
+    "modelType": "P3D",
+    "path": "dz/rocks_bliss",
+    "usableOnConsole": true,
+    "searchTags": "Livonia rock",
+    "image": ""
+  },
+  {
+    "objectName": "stone8_carving",
+    "inGameName": "-",
+    "category": "rocks_bliss",
+    "modelType": "P3D",
+    "path": "dz/rocks_bliss",
+    "usableOnConsole": true,
+    "searchTags": "Livonia rock",
+    "image": ""
+  },
+  {
+    "objectName": "stone8_moss_lc",
+    "inGameName": "-",
+    "category": "rocks_bliss",
+    "modelType": "P3D",
+    "path": "dz/rocks_bliss",
+    "usableOnConsole": true,
+    "searchTags": "Livonia rock",
+    "image": ""
+  },
+  {
+    "objectName": "stone8_moss",
+    "inGameName": "-",
+    "category": "rocks_bliss",
+    "modelType": "P3D",
+    "path": "dz/rocks_bliss",
+    "usableOnConsole": true,
+    "searchTags": "Livonia rock",
+    "image": ""
+  },
+  {
+    "objectName": "stone8",
+    "inGameName": "-",
+    "category": "rocks_bliss",
+    "modelType": "P3D",
+    "path": "dz/rocks_bliss",
+    "usableOnConsole": true,
+    "searchTags": "Livonia rock",
+    "image": ""
+  },
+  {
+    "objectName": "stone9_moss_lc",
+    "inGameName": "-",
+    "category": "rocks_bliss",
+    "modelType": "P3D",
+    "path": "dz/rocks_bliss",
+    "usableOnConsole": true,
+    "searchTags": "Livonia rock",
+    "image": ""
+  },
+  {
+    "objectName": "stone9_moss",
+    "inGameName": "-",
+    "category": "rocks_bliss",
+    "modelType": "P3D",
+    "path": "dz/rocks_bliss",
+    "usableOnConsole": true,
+    "searchTags": "Livonia rock",
+    "image": ""
+  },
+  {
+    "objectName": "stone9",
+    "inGameName": "-",
+    "category": "rocks_bliss",
+    "modelType": "P3D",
+    "path": "dz/rocks_bliss",
+    "usableOnConsole": true,
+    "searchTags": "Livonia rock",
+    "image": ""
+  },
+  {
+    "objectName": "stone10_moss_lc",
+    "inGameName": "-",
+    "category": "rocks_bliss",
+    "modelType": "P3D",
+    "path": "dz/rocks_bliss",
+    "usableOnConsole": true,
+    "searchTags": "Livonia rock",
+    "image": ""
+  },
+  {
+    "objectName": "stone10_moss",
+    "inGameName": "-",
+    "category": "rocks_bliss",
+    "modelType": "P3D",
+    "path": "dz/rocks_bliss",
+    "usableOnConsole": true,
+    "searchTags": "Livonia rock",
+    "image": ""
+  },
+  {
+    "objectName": "stone10",
+    "inGameName": "-",
+    "category": "rocks_bliss",
+    "modelType": "P3D",
+    "path": "dz/rocks_bliss",
+    "usableOnConsole": true,
+    "searchTags": "Livonia rock",
+    "image": ""
+  },
+
+{
+    "objectName": "b_piceaabies_1f_summer.p3d",
+    "inGameName": "-",
+    "category": "tree",
+    "modelType": "P3D",
+    "path": "dz/plants_bliss/tree",
+    "usableOnConsole": true,
+    "searchTags": "Livonia tree",
+    "image": ""
+},
+{
+    "objectName": "b_piceaabies_1fb_summer.p3d",
+    "inGameName": "-",
+    "category": "tree",
+    "modelType": "P3D",
+    "path": "dz/plants_bliss/tree",
+    "usableOnConsole": true,
+    "searchTags": "Livonia tree",
+    "image": ""
+},
+{
+    "objectName": "d_betulapendula_fallen.p3d",
+    "inGameName": "-",
+    "category": "tree",
+    "modelType": "P3D",
+    "path": "dz/plants_bliss/tree",
+    "usableOnConsole": true,
+    "searchTags": "Livonia tree",
+    "image": ""
+},
+{
+    "objectName": "d_betulapendula_stump.p3d",
+    "inGameName": "-",
+    "category": "tree",
+    "modelType": "P3D",
+    "path": "dz/plants_bliss/tree",
+    "usableOnConsole": true,
+    "searchTags": "Livonia tree",
+    "image": ""
+},
+{
+    "objectName": "d_piceaabies_fallend.p3d",
+    "inGameName": "-",
+    "category": "tree",
+    "modelType": "P3D",
+    "path": "dz/plants_bliss/tree",
+    "usableOnConsole": true,
+    "searchTags": "Livonia tree",
+    "image": ""
+},
+{
+    "objectName": "d_piceaabies_fallene.p3d",
+    "inGameName": "-",
+    "category": "tree",
+    "modelType": "P3D",
+    "path": "dz/plants_bliss/tree",
+    "usableOnConsole": true,
+    "searchTags": "Livonia tree",
+    "image": ""
+},
+{
+    "objectName": "d_piceaabies_stumpc.p3d",
+    "inGameName": "-",
+    "category": "tree",
+    "modelType": "P3D",
+    "path": "dz/plants_bliss/tree",
+    "usableOnConsole": true,
+    "searchTags": "Livonia tree",
+    "image": ""
+},
+{
+    "objectName": "d_piceaabies_stumpd.p3d",
+    "inGameName": "-",
+    "category": "tree",
+    "modelType": "P3D",
+    "path": "dz/plants_bliss/tree",
+    "usableOnConsole": true,
+    "searchTags": "Livonia tree",
+    "image": ""
+},
+{
+    "objectName": "t_acer_2s_summer.p3d",
+    "inGameName": "-",
+    "category": "tree",
+    "modelType": "P3D",
+    "path": "dz/plants_bliss/tree",
+    "usableOnConsole": true,
+    "searchTags": "Livonia tree",
+    "image": ""
+},
+{
+    "objectName": "t_betulapendulae_1s_summer.p3d",
+    "inGameName": "-",
+    "category": "tree",
+    "modelType": "P3D",
+    "path": "dz/plants_bliss/tree",
+    "usableOnConsole": true,
+    "searchTags": "Livonia tree",
+    "image": ""
+},
+{
+    "objectName": "t_betulapendulae_2f_summer.p3d",
+    "inGameName": "-",
+    "category": "tree",
+    "modelType": "P3D",
+    "path": "dz/plants_bliss/tree",
+    "usableOnConsole": true,
+    "searchTags": "Livonia tree",
+    "image": ""
+},
+{
+    "objectName": "t_betulapendulae_2s_summer.p3d",
+    "inGameName": "-",
+    "category": "tree",
+    "modelType": "P3D",
+    "path": "dz/plants_bliss/tree",
+    "usableOnConsole": true,
+    "searchTags": "Livonia tree",
+    "image": ""
+},
+{
+    "objectName": "t_betulapendulae_2w_summer.p3d",
+    "inGameName": "-",
+    "category": "tree",
+    "modelType": "P3D",
+    "path": "dz/plants_bliss/tree",
+    "usableOnConsole": true,
+    "searchTags": "Livonia tree",
+    "image": ""
+},
+{
+    "objectName": "t_betulapendulae_3f_summer.p3d",
+    "inGameName": "-",
+    "category": "tree",
+    "modelType": "P3D",
+    "path": "dz/plants_bliss/tree",
+    "usableOnConsole": true,
+    "searchTags": "Livonia tree",
+    "image": ""
+},
+{
+    "objectName": "t_betulapendulae_3s_summer.p3d",
+    "inGameName": "-",
+    "category": "tree",
+    "modelType": "P3D",
+    "path": "dz/plants_bliss/tree",
+    "usableOnConsole": true,
+    "searchTags": "Livonia tree",
+    "image": ""
+},
+
+{
+    "objectName": "c_beech_big_summer.p3d",
+    "inGameName": "-",
+    "category": "clutter",
+    "modelType": "P3D",
+    "path": "dz/plants_bliss/clutter",
+    "usableOnConsole": true,
+    "searchTags": "Livonia clutter",
+    "image": ""
+},
+{
+    "objectName": "c_beech_mid_summer.p3d",
+    "inGameName": "-",
+    "category": "clutter",
+    "modelType": "P3D",
+    "path": "dz/plants_bliss/clutter",
+    "usableOnConsole": true,
+    "searchTags": "Livonia clutter",
+    "image": ""
+},
+{
+    "objectName": "c_beech_small_summer.p3d",
+    "inGameName": "-",
+    "category": "clutter",
+    "modelType": "P3D",
+    "path": "dz/plants_bliss/clutter",
+    "usableOnConsole": true,
+    "searchTags": "Livonia clutter",
+    "image": ""
+},
+{
+    "objectName": "c_branches_deciduous_summer.p3d",
+    "inGameName": "-",
+    "category": "clutter",
+    "modelType": "P3D",
+    "path": "dz/plants_bliss/clutter",
+    "usableOnConsole": true,
+    "searchTags": "Livonia clutter",
+    "image": ""
+},
+{
+    "objectName": "c_branches_picea_summer.p3d",
+    "inGameName": "-",
+    "category": "clutter",
+    "modelType": "P3D",
+    "path": "dz/plants_bliss/clutter",
+    "usableOnConsole": true,
+    "searchTags": "Livonia clutter",
+    "image": ""
+},
+{
+    "objectName": "c_branchesbig_picea_summer.p3d",
+    "inGameName": "-",
+    "category": "clutter",
+    "modelType": "P3D",
+    "path": "dz/plants_bliss/clutter",
+    "usableOnConsole": true,
+    "searchTags": "Livonia clutter",
+    "image": ""
+},
+{
+    "objectName": "c_concretegrass_bunch_summer.p3d",
+    "inGameName": "-",
+    "category": "clutter",
+    "modelType": "P3D",
+    "path": "dz/plants_bliss/clutter",
+    "usableOnConsole": true,
+    "searchTags": "Livonia clutter",
+    "image": ""
+},
+{
+    "objectName": "c_cones_summer.p3d",
+    "inGameName": "-",
+    "category": "clutter",
+    "modelType": "P3D",
+    "path": "dz/plants_bliss/clutter",
+    "usableOnConsole": true,
+    "searchTags": "Livonia clutter",
+    "image": ""
+},
+{
+    "objectName": "c_dirtgrass_bunch_summer.p3d",
+    "inGameName": "-",
+    "category": "clutter",
+    "modelType": "P3D",
+    "path": "dz/plants_bliss/clutter",
+    "usableOnConsole": true,
+    "searchTags": "Livonia clutter",
+    "image": ""
+},
+{
+    "objectName": "c_elytrigia_green_summer.p3d",
+    "inGameName": "-",
+    "category": "clutter",
+    "modelType": "P3D",
+    "path": "dz/plants_bliss/clutter",
+    "usableOnConsole": true,
+    "searchTags": "Livonia clutter",
+    "image": ""
+},
+{
+    "objectName": "b_betulanana_1s_summer.p3d",
+    "inGameName": "-",
+    "category": "bush",
+    "modelType": "P3D",
+    "path": "dz/plants_bliss/bush",
+    "usableOnConsole": true,
+    "searchTags": "Livonia bushes",
+    "image": ""
+},
+{
+    "objectName": "b_caraganaarborescens_2s_summer.p3d",
+    "inGameName": "-",
+    "category": "bush",
+    "modelType": "P3D",
+    "path": "dz/plants_bliss/bush",
+    "usableOnConsole": true,
+    "searchTags": "Livonia bushes",
+    "image": ""
+},
+{
+    "objectName": "b_corylusheterophylla_1s_summer.p3d",
+    "inGameName": "-",
+    "category": "bush",
+    "modelType": "P3D",
+    "path": "dz/plants_bliss/bush",
+    "usableOnConsole": true,
+    "searchTags": "Livonia bushes",
+    "image": ""
+},
+{
+    "objectName": "b_corylusheterophylla_2s_summer.p3d",
+    "inGameName": "-",
+    "category": "bush",
+    "modelType": "P3D",
+    "path": "dz/plants_bliss/bush",
+    "usableOnConsole": true,
+    "searchTags": "Livonia bushes",
+    "image": ""
+},
+{
+    "objectName": "b_fagussylvatica_1f_summer.p3d",
+    "inGameName": "-",
+    "category": "bush",
+    "modelType": "P3D",
+    "path": "dz/plants_bliss/bush",
+    "usableOnConsole": true,
+    "searchTags": "Livonia bushes",
+    "image": ""
+},
+{
+    "objectName": "b_phragmitesaustralis_summer.p3d",
+    "inGameName": "-",
+    "category": "bush",
+    "modelType": "P3D",
+    "path": "dz/plants_bliss/bush",
+    "usableOnConsole": true,
+    "searchTags": "Livonia bushes",
+    "image": ""
+},
+{
+    "objectName": "b_prunusspinosa_1s_summer.p3d",
+    "inGameName": "-",
+    "category": "bush",
+    "modelType": "P3D",
+    "path": "dz/plants_bliss/bush",
+    "usableOnConsole": true,
+    "searchTags": "Livonia bushes",
+    "image": ""
+},
+{
+    "objectName": "b_prunusspinosa_2s_summer.p3d",
+    "inGameName": "-",
+    "category": "bush",
+    "modelType": "P3D",
+    "path": "dz/plants_bliss/bush",
+    "usableOnConsole": true,
+    "searchTags": "Livonia bushes",
+    "image": ""
+},
+{
+    "objectName": "b_rosacanina_1s_summer.p3d",
+    "inGameName": "-",
+    "category": "bush",
+    "modelType": "P3D",
+    "path": "dz/plants_bliss/bush",
+    "usableOnConsole": true,
+    "searchTags": "Livonia bushes",
+    "image": ""
+},
+{
+    "objectName": "b_rosacanina_2s_summer.p3d",
+    "inGameName": "-",
+    "category": "bush",
+    "modelType": "P3D",
+    "path": "dz/plants_bliss/bush",
+    "usableOnConsole": true,
+    "searchTags": "Livonia bushes",
+    "image": ""
+},
+{
+    "objectName": "b_sambucusnigra_1s_summer.p3d",
+    "inGameName": "-",
+    "category": "bush",
+    "modelType": "P3D",
+    "path": "dz/plants_bliss/bush",
+    "usableOnConsole": true,
+    "searchTags": "Livonia bushes",
+    "image": ""
+},
+{
+    "objectName": "b_sambucusnigra_2s_summer.p3d",
+    "inGameName": "-",
+    "category": "bush",
+    "modelType": "P3D",
+    "path": "dz/plants_bliss/bush",
+    "usableOnConsole": true,
+    "searchTags": "Livonia bushes",
+    "image": ""
+},
+
+{
+    "objectName": "c_birchleaves_sparse.p3d",
+    "inGameName": "-",
+    "category": "clutter",
+    "modelType": "P3D",
+    "path": "dz/plants_sakhal/clutter",
+    "usableOnConsole": true,
+    "searchTags": "Sakhal clutter",
+    "image": ""
+},
+{
+    "objectName": "c_birchleaves.p3d",
+    "inGameName": "-",
+    "category": "clutter",
+    "modelType": "P3D",
+    "path": "dz/plants_sakhal/clutter",
+    "usableOnConsole": true,
+    "searchTags": "Sakhal clutter",
+    "image": ""
+},
+{
+    "objectName": "c_browngrass_flat.p3d",
+    "inGameName": "-",
+    "category": "clutter",
+    "modelType": "P3D",
+    "path": "dz/plants_sakhal/clutter",
+    "usableOnConsole": true,
+    "searchTags": "Sakhal clutter",
+    "image": ""
+},
+{
+    "objectName": "c_browngrass_lump.p3d",
+    "inGameName": "-",
+    "category": "clutter",
+    "modelType": "P3D",
+    "path": "dz/plants_sakhal/clutter",
+    "usableOnConsole": true,
+    "searchTags": "Sakhal clutter",
+    "image": ""
+},
+{
+    "objectName": "c_browngrass_tall.p3d",
+    "inGameName": "-",
+    "category": "clutter",
+    "modelType": "P3D",
+    "path": "dz/plants_sakhal/clutter",
+    "usableOnConsole": true,
+    "searchTags": "Sakhal clutter",
+    "image": ""
+},
+{
+    "objectName": "c_browngrass_tall2.p3d",
+    "inGameName": "-",
+    "category": "clutter",
+    "modelType": "P3D",
+    "path": "dz/plants_sakhal/clutter",
+    "usableOnConsole": true,
+    "searchTags": "Sakhal clutter",
+    "image": ""
+},
+{
+    "objectName": "c_browngrass.p3d",
+    "inGameName": "-",
+    "category": "clutter",
+    "modelType": "P3D",
+    "path": "dz/plants_sakhal/clutter",
+    "usableOnConsole": true,
+    "searchTags": "Sakhal clutter",
+    "image": ""
+},
+{
+    "objectName": "c_drythistle.p3d",
+    "inGameName": "-",
+    "category": "clutter",
+    "modelType": "P3D",
+    "path": "dz/plants_sakhal/clutter",
+    "usableOnConsole": true,
+    "searchTags": "Sakhal clutter",
+    "image": ""
+},
+{
+    "objectName": "c_greengrass_tall.p3d",
+    "inGameName": "-",
+    "category": "clutter",
+    "modelType": "P3D",
+    "path": "dz/plants_sakhal/clutter",
+    "usableOnConsole": true,
+    "searchTags": "Sakhal clutter",
+    "image": ""
+},
+{
+    "objectName": "c_greengrass_tall2.p3d",
+    "inGameName": "-",
+    "category": "clutter",
+    "modelType": "P3D",
+    "path": "dz/plants_sakhal/clutter",
+    "usableOnConsole": true,
+    "searchTags": "Sakhal clutter",
+    "image": ""
+},
+{
+    "objectName": "c_piceacluster.p3d",
+    "inGameName": "-",
+    "category": "clutter",
+    "modelType": "P3D",
+    "path": "dz/plants_sakhal/clutter",
+    "usableOnConsole": true,
+    "searchTags": "Sakhal clutter",
+    "image": ""
+},
+{
+    "objectName": "c_piceacones.p3d",
+    "inGameName": "-",
+    "category": "clutter",
+    "modelType": "P3D",
+    "path": "dz/plants_sakhal/clutter",
+    "usableOnConsole": true,
+    "searchTags": "Sakhal clutter",
+    "image": ""
+},
+{
+    "objectName": "c_stones_small.p3d",
+    "inGameName": "-",
+    "category": "clutter",
+    "modelType": "P3D",
+    "path": "dz/plants_sakhal/clutter",
+    "usableOnConsole": true,
+    "searchTags": "Sakhal clutter",
+    "image": ""
+},
+{
+    "objectName": "c_stones.p3d",
+    "inGameName": "-",
+    "category": "clutter",
+    "modelType": "P3D",
+    "path": "dz/plants_sakhal/clutter",
+    "usableOnConsole": true,
+    "searchTags": "Sakhal clutter",
+    "image": ""
+},
+{
+    "objectName": "c_twigs1.p3d",
+    "inGameName": "-",
+    "category": "clutter",
+    "modelType": "P3D",
+    "path": "dz/plants_sakhal/clutter",
+    "usableOnConsole": true,
+    "searchTags": "Sakhal clutter",
+    "image": ""
+},
+{
+    "objectName": "c_twigs2.p3d",
+    "inGameName": "-",
+    "category": "clutter",
+    "modelType": "P3D",
+    "path": "dz/plants_sakhal/clutter",
+    "usableOnConsole": true,
+    "searchTags": "Sakhal clutter",
+    "image": ""
+},
+{
+    "objectName": "c_volcanicstones_red.p3d",
+    "inGameName": "-",
+    "category": "clutter",
+    "modelType": "P3D",
+    "path": "dz/plants_sakhal/clutter",
+    "usableOnConsole": true,
+    "searchTags": "Sakhal clutter",
+    "image": ""
+},
+{
+    "objectName": "c_volcanicstones_yellow.p3d",
+    "inGameName": "-",
+    "category": "clutter",
+    "modelType": "P3D",
+    "path": "dz/plants_sakhal/clutter",
+    "usableOnConsole": true,
+    "searchTags": "Sakhal clutter",
+    "image": ""
+},
+
+{
+    "objectName": "b_piceaabies_1f_dark.p3d",
+    "inGameName": "-",
+    "category": "plants/dark",
+    "modelType": "P3D",
+    "path": "dz/plants/sakhal/dark",
+    "usableOnConsole": true,
+    "searchTags": "Sakhal dark",
+    "image": ""
+},
+{
+    "objectName": "b_piceaabies_1fb_dark.p3d",
+    "inGameName": "-",
+    "category": "plants/dark",
+    "modelType": "P3D",
+    "path": "dz/plants/sakhal/dark",
+    "usableOnConsole": true,
+    "searchTags": "Sakhal dark",
+    "image": ""
+},
+{
+    "objectName": "d_piceaabies_fallen_dark.p3d",
+    "inGameName": "-",
+    "category": "plants/dark",
+    "modelType": "P3D",
+    "path": "dz/plants/sakhal/dark",
+    "usableOnConsole": true,
+    "searchTags": "Sakhal dark",
+    "image": ""
+},
+{
+    "objectName": "d_piceaabies_fallenb_dark.p3d",
+    "inGameName": "-",
+    "category": "plants/dark",
+    "modelType": "P3D",
+    "path": "dz/plants/sakhal/dark",
+    "usableOnConsole": true,
+    "searchTags": "Sakhal dark",
+    "image": ""
+},
+{
+    "objectName": "d_piceaabies_fallenc_dark.p3d",
+    "inGameName": "-",
+    "category": "plants/dark",
+    "modelType": "P3D",
+    "path": "dz/plants/sakhal/dark",
+    "usableOnConsole": true,
+    "searchTags": "Sakhal dark",
+    "image": ""
+},
+{
+    "objectName": "d_piceaabies_fallend_dark.p3d",
+    "inGameName": "-",
+    "category": "plants/dark",
+    "modelType": "P3D",
+    "path": "dz/plants/sakhal/dark",
+    "usableOnConsole": true,
+    "searchTags": "Sakhal dark",
+    "image": ""
+},
+{
+    "objectName": "d_piceaabies_fallene_dark.p3d",
+    "inGameName": "-",
+    "category": "plants/dark",
+    "modelType": "P3D",
+    "path": "dz/plants/sakhal/dark",
+    "usableOnConsole": true,
+    "searchTags": "Sakhal dark",
+    "image": ""
+},
+{
+    "objectName": "d_piceaabies_stump_dark.p3d",
+    "inGameName": "-",
+    "category": "plants/dark",
+    "modelType": "P3D",
+    "path": "dz/plants/sakhal/dark",
+    "usableOnConsole": true,
+    "searchTags": "Sakhal dark",
+    "image": ""
+},
+{
+    "objectName": "d_piceaabies_stumpb_dark.p3d",
+    "inGameName": "-",
+    "category": "plants/dark",
+    "modelType": "P3D",
+    "path": "dz/plants/sakhal/dark",
+    "usableOnConsole": true,
+    "searchTags": "Sakhal dark",
+    "image": ""
+},
+{
+    "objectName": "d_piceaabies_stumpc_dark.p3d",
+    "inGameName": "-",
+    "category": "plants/dark",
+    "modelType": "P3D",
+    "path": "dz/plants/sakhal/dark",
+    "usableOnConsole": true,
+    "searchTags": "Sakhal dark",
+    "image": ""
+},
+{
+    "objectName": "t_piceaabies_1f_dark.p3d",
+    "inGameName": "-",
+    "category": "plants/dark",
+    "modelType": "P3D",
+    "path": "dz/plants/sakhal/dark",
+    "usableOnConsole": true,
+    "searchTags": "Sakhal dark",
+    "image": ""
+},
+{
+    "objectName": "t_piceaabies_1s_dark.p3d",
+    "inGameName": "-",
+    "category": "plants/dark",
+    "modelType": "P3D",
+    "path": "dz/plants/sakhal/dark",
+    "usableOnConsole": true,
+    "searchTags": "Sakhal dark",
+    "image": ""
+},
+{
+    "objectName": "t_piceaabies_1sb_dark.p3d",
+    "inGameName": "-",
+    "category": "plants/dark",
+    "modelType": "P3D",
+    "path": "dz/plants/sakhal/dark",
+    "usableOnConsole": true,
+    "searchTags": "Sakhal dark",
+    "image": ""
+},
+{
+    "objectName": "t_piceaabies_2d_dark.p3d",
+    "inGameName": "-",
+    "category": "plants/dark",
+    "modelType": "P3D",
+    "path": "dz/plants/sakhal/dark",
+    "usableOnConsole": true,
+    "searchTags": "Sakhal dark",
+    "image": ""
+},
+{
+    "objectName": "t_piceaabies_2f_dark.p3d",
+    "inGameName": "-",
+    "category": "plants/dark",
+    "modelType": "P3D",
+    "path": "dz/plants/sakhal/dark",
+    "usableOnConsole": true,
+    "searchTags": "Sakhal dark",
+    "image": ""
+},
+{
+    "objectName": "t_piceaabies_2fb_dark.p3d",
+    "inGameName": "-",
+    "category": "plants/dark",
+    "modelType": "P3D",
+    "path": "dz/plants/sakhal/dark",
+    "usableOnConsole": true,
+    "searchTags": "Sakhal dark",
+    "image": ""
+},
+{
+    "objectName": "t_piceaabies_2s_dark.p3d",
+    "inGameName": "-",
+    "category": "plants/dark",
+    "modelType": "P3D",
+    "path": "dz/plants/sakhal/dark",
+    "usableOnConsole": true,
+    "searchTags": "Sakhal dark",
+    "image": ""
+},
+{
+    "objectName": "t_piceaabies_2sb_dark.p3d",
+    "inGameName": "-",
+    "category": "plants/dark",
+    "modelType": "P3D",
+    "path": "dz/plants/sakhal/dark",
+    "usableOnConsole": true,
+    "searchTags": "Sakhal dark",
+    "image": ""
+},
+{
+    "objectName": "t_piceaabies_3d_dark.p3d",
+    "inGameName": "-",
+    "category": "plants/dark",
+    "modelType": "P3D",
+    "path": "dz/plants/sakhal/dark",
+    "usableOnConsole": true,
+    "searchTags": "Sakhal dark",
+    "image": ""
+},
+
+{
+    "objectName": "b_piceaabies_1f_frozen.p3d",
+    "inGameName": "-",
+    "category": "plants/frozen",
+    "modelType": "P3D",
+    "path": "dz/plants/sakhal/dark",
+    "usableOnConsole": true,
+    "searchTags": "Sakhal frozen",
+    "image": ""
+},
+{
+    "objectName": "b_piceaabies_1fb_frozen.p3d",
+    "inGameName": "-",
+    "category": "plants/frozen",
+    "modelType": "P3D",
+    "path": "dz/plants/sakhal/dark",
+    "usableOnConsole": true,
+    "searchTags": "Sakhal frozen",
+    "image": ""
+},
+{
+    "objectName": "t_piceaabies_1f_frozen.p3d",
+    "inGameName": "-",
+    "category": "plants/frozen",
+    "modelType": "P3D",
+    "path": "dz/plants/sakhal/dark",
+    "usableOnConsole": true,
+    "searchTags": "Sakhal frozen",
+    "image": ""
+},
+{
+    "objectName": "t_piceaabies_1s_frozen.p3d",
+    "inGameName": "-",
+    "category": "plants/frozen",
+    "modelType": "P3D",
+    "path": "dz/plants/sakhal/dark",
+    "usableOnConsole": true,
+    "searchTags": "Sakhal frozen",
+    "image": ""
+},
+{
+    "objectName": "t_piceaabies_1sb_frozen.p3d",
+    "inGameName": "-",
+    "category": "plants/frozen",
+    "modelType": "P3D",
+    "path": "dz/plants/sakhal/dark",
+    "usableOnConsole": true,
+    "searchTags": "Sakhal frozen",
+    "image": ""
+},
+{
+    "objectName": "t_piceaabies_2f_frozen.p3d",
+    "inGameName": "-",
+    "category": "plants/frozen",
+    "modelType": "P3D",
+    "path": "dz/plants/sakhal/dark",
+    "usableOnConsole": true,
+    "searchTags": "Sakhal frozen",
+    "image": ""
+},
+{
+    "objectName": "t_piceaabies_2fb_frozen.p3d",
+    "inGameName": "-",
+    "category": "plants/frozen",
+    "modelType": "P3D",
+    "path": "dz/plants/sakhal/dark",
+    "usableOnConsole": true,
+    "searchTags": "Sakhal frozen",
+    "image": ""
+},
+{
+    "objectName": "t_piceaabies_2s_frozen.p3d",
+    "inGameName": "-",
+    "category": "plants/frozen",
+    "modelType": "P3D",
+    "path": "dz/plants/sakhal/dark",
+    "usableOnConsole": true,
+    "searchTags": "Sakhal frozen",
+    "image": ""
+},
+{
+    "objectName": "t_piceaabies_2sb_frozen.p3d",
+    "inGameName": "-",
+    "category": "plants/frozen",
+    "modelType": "P3D",
+    "path": "dz/plants/sakhal/dark",
+    "usableOnConsole": true,
+    "searchTags": "Sakhal frozen",
+    "image": ""
+}, 
+
+{
+    "objectName": "b_betulahumilis_1s_winter.p3d",
+    "inGameName": "-",
+    "category": "plants/winter",
+    "modelType": "P3D",
+    "path": "dz/plants_sakhal/winter",
+    "usableOnConsole": true,
+    "searchTags": "Snow trees, Sakhal trees",
+    "image": ""
+},
+{
+    "objectName": "b_betulanana_1s_winter.p3d",
+    "inGameName": "-",
+    "category": "plants/winter",
+    "modelType": "P3D",
+    "path": "dz/plants_sakhal/winter",
+    "usableOnConsole": true,
+    "searchTags": "Snow trees, Sakhal trees",
+    "image": ""
+},
+{
+    "objectName": "b_betulapendula_1f_winter.p3d",
+    "inGameName": "-",
+    "category": "plants/winter",
+    "modelType": "P3D",
+    "path": "dz/plants_sakhal/winter",
+    "usableOnConsole": true,
+    "searchTags": "Snow trees, Sakhal trees",
+    "image": ""
+},
+{
+    "objectName": "b_caraganaarborescens_2s_winter.p3d",
+    "inGameName": "-",
+    "category": "plants/winter",
+    "modelType": "P3D",
+    "path": "dz/plants_sakhal/winter",
+    "usableOnConsole": true,
+    "searchTags": "Snow trees, Sakhal trees",
+    "image": ""
+},
+{
+    "objectName": "b_piceaabies_1f_winter.p3d",
+    "inGameName": "-",
+    "category": "plants/winter",
+    "modelType": "P3D",
+    "path": "dz/plants_sakhal/winter",
+    "usableOnConsole": true,
+    "searchTags": "Snow trees, Sakhal trees",
+    "image": ""
+},
+{
+    "objectName": "b_piceaabies_1fb_winter.p3d",
+    "inGameName": "-",
+    "category": "plants/winter",
+    "modelType": "P3D",
+    "path": "dz/plants_sakhal/winter",
+    "usableOnConsole": true,
+    "searchTags": "Snow trees, Sakhal trees",
+    "image": ""
+},
+{
+    "objectName": "d_betulapendula_fallen_winter.p3d",
+    "inGameName": "-",
+    "category": "plants/winter",
+    "modelType": "P3D",
+    "path": "dz/plants_sakhal/winter",
+    "usableOnConsole": true,
+    "searchTags": "Snow trees, Sakhal trees",
+    "image": ""
+},
+{
+    "objectName": "d_betulapendula_stump_winter.p3d",
+    "inGameName": "-",
+    "category": "plants/winter",
+    "modelType": "P3D",
+    "path": "dz/plants_sakhal/winter",
+    "usableOnConsole": true,
+    "searchTags": "Snow trees, Sakhal trees",
+    "image": ""
+},
+{
+    "objectName": "d_piceaabies_fallen_winter.p3d",
+    "inGameName": "-",
+    "category": "plants/winter",
+    "modelType": "P3D",
+    "path": "dz/plants_sakhal/winter",
+    "usableOnConsole": true,
+    "searchTags": "Snow trees, Sakhal trees",
+    "image": ""
+},
+{
+    "objectName": "d_piceaabies_fallenb_winter.p3d",
+    "inGameName": "-",
+    "category": "plants/winter",
+    "modelType": "P3D",
+    "path": "dz/plants_sakhal/winter",
+    "usableOnConsole": true,
+    "searchTags": "Snow trees, Sakhal trees",
+    "image": ""
+},
+
+{
+    "objectName": "rock_lava_boulder1.p3d",
+    "inGameName": "-",
+    "category": "rocks",
+    "modelType": "P3D",
+    "path": "dz/rocks_sakhal",
+    "usableOnConsole": true,
+    "searchTags": "Sakhal rock",
+    "image": ""
+},
+{
+    "objectName": "rock_lava_boulder2.p3d",
+    "inGameName": "-",
+    "category": "rocks",
+    "modelType": "P3D",
+    "path": "dz/rocks_sakhal",
+    "usableOnConsole": true,
+    "searchTags": "Sakhal rock",
+    "image": ""
+},
+{
+    "objectName": "rock_lava_boulder3.p3d",
+    "inGameName": "-",
+    "category": "rocks",
+    "modelType": "P3D",
+    "path": "dz/rocks_sakhal",
+    "usableOnConsole": true,
+    "searchTags": "Sakhal rock",
+    "image": ""
+},
+{
+    "objectName": "rock_lava_boulder4.p3d",
+    "inGameName": "-",
+    "category": "rocks",
+    "modelType": "P3D",
+    "path": "dz/rocks_sakhal",
+    "usableOnConsole": true,
+    "searchTags": "Sakhal rock",
+    "image": ""
+},
+{
+    "objectName": "rock_monolith5_int.p3d",
+    "inGameName": "-",
+    "category": "rocks",
+    "modelType": "P3D",
+    "path": "dz/rocks_sakhal",
+    "usableOnConsole": true,
+    "searchTags": "Sakhal rock",
+    "image": ""
+},
+{
+    "objectName": "rock_monolith5_snow.p3d",
+    "inGameName": "-",
+    "category": "rocks",
+    "modelType": "P3D",
+    "path": "dz/rocks_sakhal",
+    "usableOnConsole": true,
+    "searchTags": "Sakhal rock",
+    "image": ""
+},
+{
+    "objectName": "rock_monolith5.p3d",
+    "inGameName": "-",
+    "category": "rocks",
+    "modelType": "P3D",
+    "path": "dz/rocks_sakhal",
+    "usableOnConsole": true,
+    "searchTags": "Sakhal rock",
+    "image": ""
+},
+{
+    "objectName": "rock_spike4_int.p3d",
+    "inGameName": "-",
+    "category": "rocks",
+    "modelType": "P3D",
+    "path": "dz/rocks_sakhal",
+    "usableOnConsole": true,
+    "searchTags": "Sakhal rock",
+    "image": ""
+},
+{
+    "objectName": "rock_spike4_snow.p3d",
+    "inGameName": "-",
+    "category": "rocks",
+    "modelType": "P3D",
+    "path": "dz/rocks_sakhal",
+    "usableOnConsole": true,
+    "searchTags": "Sakhal rock",
+    "image": ""
+},
+{
+    "objectName": "rock_spike4.p3d",
+    "inGameName": "-",
+    "category": "rocks",
+    "modelType": "P3D",
+    "path": "dz/rocks_sakhal",
+    "usableOnConsole": true,
+    "searchTags": "Sakhal rock",
+    "image": ""
+}
+
+]

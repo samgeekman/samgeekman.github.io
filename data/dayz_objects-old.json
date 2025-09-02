@@ -1,0 +1,35 @@
+[
+  
+  
+  {
+    "objectName": "FxCartridge_556",
+    "inGameName": "Offroad Vehicle",
+    "modelType": "Config",
+    "path": "dz/vehicles/offroad_4.p3d",
+    "notes": "4x4 transport vehicle",
+    "usableOnConsole": true,
+    "searchTags": "humvee, jeep, car"
+  },
+  
+  
+  
+  
+  {
+    "objectName": "Offroad_4",
+    "inGameName": "Offroad Vehicle",
+    "modelType": "Config",
+    "path": "dz/vehicles/offroad_4.p3d",
+    "notes": "4x4 transport vehicle",
+    "usableOnConsole": true,
+    "searchTags": "humvee, jeep, car"
+  },
+  {
+    "objectName": "AKM",
+    "inGameName": "AKM Rifle",
+    "modelType": "Config",
+    "path": "dz/weapons/firearms/akm/akm.p3d",
+    "notes": "7.62mm Soviet assault rifle",
+    "usableOnConsole": true,
+    "searchTags": "assault rifle, gun"
+  }
+]

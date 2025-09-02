@@ -1,0 +1,145 @@
+{{ define "main" }}
+
+<h1>{{ .Title }}</h1>
+
+<style>
+  /* Make the table full width and add a small margin */
+  #dayzObjects_wrapper {
+    width: 100% !important;
+    margin: 20px;
+  }
+  #dayzObjects {
+    width: 100% !important;
+  }
+
+  /* Flex container for table controls */
+  .top-bar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    gap: 10px;
+  }
+
+  .top-bar select,
+  .top-bar input {
+    margin-right: 10px;
+  }
+
+  /* Filters container */
+  #filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 15px;
+    align-items: center;
+  }
+
+  /* Optional: adjust search input width */
+  #dayzObjects_filter input {
+    width: 200px;
+    max-width: 100%;
+  }
+</style>
+
+<div id="filters">
+  <label for="filterCategory">Category:</label>
+  <select id="filterCategory">
+    <option value="">All</option>
+  </select>
+
+  <label for="filterConsole">Usable on Console:</label>
+  <select id="filterConsole">
+    <option value="">All</option>
+    <option value="✅">Yes</option>
+    <option value="❌">No</option>
+  </select>
+</div>
+
+<table id="dayzObjects" class="display" style="width:100%">
+  <thead>
+    <tr>
+      <th>Object name</th>
+      <th>In-game name</th>
+      <th>Category</th>
+      <th>Model Type</th>
+      <th>Path</th>
+      <th>Usable on Console</th>
+      <th>Search Tags</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{ range .Site.Data.dayz_objects }}
+    <tr>
+      <td data-image="{{ with .image }}{{ . }}{{ end }}">{{ .objectName }}</td>
+      <td>{{ .inGameName }}</td>
+      <td>{{ .category }}</td>
+      <td>{{ .modelType }}</td>
+      <td>{{ .path }}</td>
+      <td>{{ if .usableOnConsole }}✅{{ else }}❌{{ end }}</td>
+      <td>{{ with .searchTags }}{{ . }}{{ end }}</td>
+    </tr>
+    {{ end }}
+  </tbody>
+</table>
+
+<!-- DataTables CSS/JS -->
+<link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
+<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+<script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+
+<script>
+$(document).ready(function() {
+  var table = $('#dayzObjects').DataTable({
+    columnDefs: [
+      { targets: [6], visible: false } // hide Search Tags column
+    ],
+    pageLength: 25,
+    deferRender: true,
+    responsive: true,
+    dom: '<"top-bar"lfr>tip' // Use top-bar flex container for entries & search
+  });
+
+  // Move custom filters into top-bar
+  $("#filters").insertBefore("#dayzObjects_wrapper .top-bar");
+
+  // --- Auto-populate Category filter ---
+  var categories = [];
+  table.column(2).data().each(function(value) {
+    if (categories.indexOf(value) === -1 && value !== "") {
+      categories.push(value);
+    }
+  });
+  categories.sort();
+  categories.forEach(function(cat) {
+    $('#filterCategory').append('<option value="' + cat + '">' + cat + '</option>');
+  });
+
+  // Apply filters
+  $('#filterCategory').on('change', function() {
+    table.column(2).search(this.value).draw();
+  });
+  $('#filterConsole').on('change', function() {
+    table.column(5).search(this.value).draw();
+  });
+
+  // Tooltip for object images on hover
+  $('#dayzObjects tbody').on('mouseenter', 'td:first-child', function (event) {
+    var imgPath = $(this).attr('data-image');
+    if (!imgPath || imgPath.trim() === "") return;
+    var imgSrc = '/' + imgPath;
+    $('body').append(
+      '<div id="imgPreview" style="position:absolute; z-index:9999; border:1px solid #ccc; background:#fff; padding:5px; box-shadow:0 2px 6px rgba(0,0,0,0.2);">' +
+      '<img src="' + imgSrc + '" style="max-width:200px; max-height:200px;">' +
+      '</div>'
+    );
+    $('#imgPreview').css({ top: event.pageY + 10, left: event.pageX + 10 });
+  }).on('mousemove', 'td:first-child', function (event) {
+    $('#imgPreview').css({ top: event.pageY + 10, left: event.pageX + 10 });
+  }).on('mouseleave', 'td:first-child', function () {
+    $('#imgPreview').remove();
+  });
+});
+</script>
+{{ end }}
